@@ -4,30 +4,42 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
     [Header("Design")]
-        public float moveSpeed = 5.0f; // Default 5.0f
-        public float fireRate = 0.5f; // Default 0.5f
+        public float speedBase = 5.0f; // Default 5.0f
+        public float speedFocus = 3.0f; // Default 3.0f
+
+        public float attackRate = 0.5f; // Default 0.5f
+        public float dodgeRate = 1.0f; // Default 1.0f
+        public float useRate = 1.0f; // Default 1.0f
 
     [Header("Programming")]
     public GameObject weapon;
     public GameObject ammo;
 
+    // Movement Variables
+    float speed;
     float moveX;
     float moveY;
 
-    bool coolDown = false;
+    // Cooldown Variables
+    float attackTime = 0.0f;
+    float dodgeTime = 0.0f;
+    float useTime = 0.0f;
 
     // Is called 1/frame, should be switched to FixedUpdate if using physics
     void Update() {
+        if (Input.GetKey("z") && (attackTime + attackRate < Time.time)) {Attack();}
+        if (Input.GetKey("x") && (dodgeTime + dodgeRate < Time.time)) {Dodge();}
+        if (Input.GetKey("c") && (useTime + useRate < Time.time)) {Use();}
         Move();
-        if (Input.GetKey("z") && coolDown == false) {Fire();}
-        if (Input.GetKey("x")) {Dodge();}
-        if (Input.GetKey("x")) {Use();}
     }
 
     // Moves the player
     void Move() {
-        moveX = Input.GetAxis("Horizontal") * moveSpeed;
-        moveY = Input.GetAxis("Vertical") * moveSpeed;
+        if (Input.GetKey(KeyCode.LeftShift)) {speed = speedFocus;}
+        else {speed = speedBase;}
+
+        moveX = Input.GetAxis("Horizontal") * speed;
+        moveY = Input.GetAxis("Vertical") * speed;
         moveX *= Time.deltaTime;
         moveY *= Time.deltaTime;
 
@@ -36,25 +48,18 @@ public class Player : MonoBehaviour {
     }
 
     // Spawns a bullet
-    void Fire() {
+    void Attack() {
         Instantiate(ammo, weapon.transform.position, weapon.transform.rotation);
-        StartCoroutine(CoolDown());
+        attackTime = Time.time;
     }
 
     // Does something
     void Dodge() {
-        //
+        dodgeTime = Time.time;
     }
 
     // Does something
     void Use() {
-        //
-    }
-
-    // Limits the weapon fire rate
-    public IEnumerator CoolDown() {
-        coolDown = true;
-        yield return new WaitForSeconds(fireRate);
-        coolDown = false;
+        useTime = Time.time;
     }
 }

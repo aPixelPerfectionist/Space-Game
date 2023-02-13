@@ -368,8 +368,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2a5290a191acb45b0a80cf6d793f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  fireRate: 0.5
+  speedBase: 5
+  speedFocus: 3
+  attackRate: 0.5
+  dodgeRate: 1
+  useRate: 1
   weapon: {fileID: 279613806}
   ammo: {fileID: 7467199203249602040, guid: eb3d259f4feaaa241ba8aa6e814ec954, type: 3}
 --- !u!1 &1717069887
@@ -381,6 +384,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1717069889}
+  - component: {fileID: 1717069890}
   m_Layer: 0
   m_Name: Control
   m_TagString: Untagged
@@ -403,3 +407,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1717069890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717069887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968f81a9c9cb0d740a58eba9b7616996, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1353570071}
