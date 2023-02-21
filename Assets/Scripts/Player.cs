@@ -4,75 +4,32 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
     [Header("General")]
-        // General Variables
-        public int healthMax = 5;
-        int healthNow = 5;
-
-        // Movement Variables
-        public float speedBase = 5.0f;
-        public float speedFocus = 3.0f;
-
-        float speed;
-        float moveX;
-        float moveY;
-
-        // Cooldown Variables
-        float attackRate;
-        public float dodgeRate = 1.0f;
-        float useRate;
-
-        float attackTime = 0.0f;
-        float dodgeTime = 0.0f;
-        float useTime = 0.0f;
+        [SerializeField] float health = 5.0f;
+        [SerializeField] float speed = 5.0f;
+        [SerializeField] float dodgeRate = 1.0f;
 
     [Header("Equipment")]
-        public Weapon weapon;
-        public Item item;
+        [SerializeField] Weapon weapon;
+        [SerializeField] Item item;
 
     [Header("Programming")]
-        public GameObject spawn;
+        [SerializeField] GameObject spawn;
 
-    void Start() {
-        attackRate = weapon.cooldown;
-        if (item != null) {useRate = item.cooldown;}
+    public void Move() {
+        float temp = Input.GetAxis("Horizontal") * speed;
+        temp *= Time.deltaTime;
+        transform.Translate(temp, 0, 0);
+
+        temp = Input.GetAxis("Vertical") * speed;
+        temp *= Time.deltaTime;
+        transform.Translate(0, temp, 0);
     }
 
-    // Is called 1/frame, should be switched to FixedUpdate if using physics
-    void Update() {
-        if (Input.GetKey("z") && (attackTime + attackRate < Time.time)) {Attack();}
-        if (Input.GetKey("x") && (dodgeTime + dodgeRate < Time.time)) {Dodge();}
-        if (Input.GetKey("c") && (useTime + useRate < Time.time) && (item != null)) {Use();}
-        Move();
-    }
+    public Weapon GetWeapon() {return weapon;}
+    public Item GetItem() {return item;}
+    public GameObject GetSpawn() {return spawn;}
 
-    // Moves the player
-    void Move() {
-        if (Input.GetKey(KeyCode.LeftShift)) {speed = speedFocus;}
-        else {speed = speedBase;}
-
-        moveX = Input.GetAxis("Horizontal") * speed;
-        moveY = Input.GetAxis("Vertical") * speed;
-        moveX *= Time.deltaTime;
-        moveY *= Time.deltaTime;
-
-        transform.Translate(moveX, 0, 0);
-        transform.Translate(0, moveY, 0);
-    }
-
-    // Spawns a bullet
-    void Attack() {
-        Instantiate(weapon, spawn.transform.position, spawn.transform.rotation);
-        attackTime = Time.time;
-    }
-
-    // Does something
-    void Dodge() {
-        dodgeTime = Time.time;
-    }
-
-    // Does something
-    void Use() {
-        useTime = Time.time;
-        if (item.consumable == true) {item = null;}
-    }
+    public float GetHealth() {return health;}
+    public float GetSpeed() {return speed;}
+    public float GetDodge() {return dodgeRate;}
 }

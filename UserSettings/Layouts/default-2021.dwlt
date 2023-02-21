@@ -8,7 +8,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1521.6
     height: 758.4
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 62
+  controlID: 76
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -68,14 +68,14 @@ MonoBehaviour:
     y: 0
     width: 412
     height: 708.4
-  m_MinSize: {x: 101, y: 121}
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 63
+  controlID: 362
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 64
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -271,12 +271,12 @@ MonoBehaviour:
     height: 419.2
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -311,8 +311,8 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 2
   activeTab: 2
   initProjectView:
@@ -452,9 +452,257 @@ MonoBehaviour:
       updatedTimeString: 
       cacheType: 0
   historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
     logEntries:
+    - commitID: e5d4367f85ecf083bd2cab40d058e8ec55250994
+      mergeA: 
+      mergeB: 
+      authorName: ebeckwith1
+      authorEmail: Beckwith.Amistad@gmail.com
+      commitEmail: Beckwith.Amistad@gmail.com
+      commitName: ebeckwith1
+      summary: Added Weapon and Item Classes
+      description: Started creating prefabs for weapons/items and also the ship.
+      timeString: 2023-02-20T19:13:12.000-05:00
+      commitTimeString: 2023-02-20T19:13:12.000-05:00
+      changes:
+      - path: Assets\Art\Backgrounds.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds.meta
+        projectPath: Assets\Art\Backgrounds.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Backgrounds\Title.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds\Title.png
+        projectPath: Assets\Art\Backgrounds\Title.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Backgrounds\Title.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds\Title.png.meta
+        projectPath: Assets\Art\Backgrounds\Title.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\GUI.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI.meta
+        projectPath: Assets\Art\GUI.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\GUI\HUD.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI\HUD.png
+        projectPath: Assets\Art\GUI\HUD.png
+        originalPath: Assets\Art\HUD.png
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Art\GUI\HUD.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI\HUD.png.meta
+        projectPath: Assets\Art\GUI\HUD.png.meta
+        originalPath: Assets\Art\HUD.png.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles.meta
+        projectPath: Assets\Art\Projectiles.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Beam.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Beam.png
+        projectPath: Assets\Art\Projectiles\Beam.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Beam.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Beam.png.meta
+        projectPath: Assets\Art\Projectiles\Beam.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Charge.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Charge.png
+        projectPath: Assets\Art\Projectiles\Charge.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Charge.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Charge.png.meta
+        projectPath: Assets\Art\Projectiles\Charge.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Missile.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Missile.png
+        projectPath: Assets\Art\Projectiles\Missile.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Missile.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Missile.png.meta
+        projectPath: Assets\Art\Projectiles\Missile.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Rocket.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Rocket.png
+        projectPath: Assets\Art\Projectiles\Rocket.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Rocket.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Rocket.png.meta
+        projectPath: Assets\Art\Projectiles\Rocket.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Beam.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Beam.prefab
+        projectPath: Assets\Prefabs\Bullets\Beam.prefab
+        originalPath: Assets\Prefabs\Bullets\Bullet.prefab
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Beam.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Beam.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Beam.prefab.meta
+        originalPath: Assets\Prefabs\Bullets\Bullet.prefab.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Charge.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Charge.prefab
+        projectPath: Assets\Prefabs\Bullets\Charge.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Charge.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Charge.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Charge.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Missile.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Missile.prefab
+        projectPath: Assets\Prefabs\Bullets\Missile.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Missile.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Missile.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Missile.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Rocket.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Rocket.prefab
+        projectPath: Assets\Prefabs\Bullets\Rocket.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Rocket.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Rocket.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Rocket.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Items.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items.meta
+        projectPath: Assets\Prefabs\Items.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Items\Energy Shield.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items\Energy
+          Shield.prefab
+        projectPath: Assets\Prefabs\Items\Energy Shield.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Items\Energy Shield.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items\Energy
+          Shield.prefab.meta
+        projectPath: Assets\Prefabs\Items\Energy Shield.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Player.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Player.prefab
+        projectPath: Assets\Prefabs\Player.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Player.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Player.prefab.meta
+        projectPath: Assets\Prefabs\Player.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Weapons.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons.meta
+        projectPath: Assets\Prefabs\Weapons.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Weapons\Blaster.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons\Blaster.prefab
+        projectPath: Assets\Prefabs\Weapons\Blaster.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Weapons\Blaster.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons\Blaster.prefab.meta
+        projectPath: Assets\Prefabs\Weapons\Blaster.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Item.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Item.cs
+        projectPath: Assets\Scripts\Item.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Item.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Item.cs.meta
+        projectPath: Assets\Scripts\Item.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+        projectPath: Assets\Scripts\Player.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Weapon.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Weapon.cs
+        projectPath: Assets\Scripts\Weapon.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Weapon.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Weapon.cs.meta
+        projectPath: Assets\Scripts\Weapon.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 90fc3982c0251c1c3e9045bd364d58a036b700da
       mergeA: 
       mergeB: 
@@ -1174,14 +1422,262 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-02-20T19:12:03.096-05:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-02-20T19:04:33.564-05:00
+      updatedTimeString: 2023-02-20T22:02:52.475-05:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: e5d4367f85ecf083bd2cab40d058e8ec55250994
+        mergeA: 
+        mergeB: 
+        authorName: ebeckwith1
+        authorEmail: Beckwith.Amistad@gmail.com
+        commitEmail: Beckwith.Amistad@gmail.com
+        commitName: ebeckwith1
+        summary: Added Weapon and Item Classes
+        description: Started creating prefabs for weapons/items and also the ship.
+        timeString: 2023-02-20T19:13:12.000-05:00
+        commitTimeString: 2023-02-20T19:13:12.000-05:00
+        changes:
+        - path: Assets\Art\Backgrounds.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds.meta
+          projectPath: Assets\Art\Backgrounds.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Backgrounds\Title.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds\Title.png
+          projectPath: Assets\Art\Backgrounds\Title.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Backgrounds\Title.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds\Title.png.meta
+          projectPath: Assets\Art\Backgrounds\Title.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\GUI.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI.meta
+          projectPath: Assets\Art\GUI.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\GUI\HUD.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI\HUD.png
+          projectPath: Assets\Art\GUI\HUD.png
+          originalPath: Assets\Art\HUD.png
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Art\GUI\HUD.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI\HUD.png.meta
+          projectPath: Assets\Art\GUI\HUD.png.meta
+          originalPath: Assets\Art\HUD.png.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles.meta
+          projectPath: Assets\Art\Projectiles.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Beam.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Beam.png
+          projectPath: Assets\Art\Projectiles\Beam.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Beam.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Beam.png.meta
+          projectPath: Assets\Art\Projectiles\Beam.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Charge.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Charge.png
+          projectPath: Assets\Art\Projectiles\Charge.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Charge.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Charge.png.meta
+          projectPath: Assets\Art\Projectiles\Charge.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Missile.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Missile.png
+          projectPath: Assets\Art\Projectiles\Missile.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Missile.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Missile.png.meta
+          projectPath: Assets\Art\Projectiles\Missile.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Rocket.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Rocket.png
+          projectPath: Assets\Art\Projectiles\Rocket.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Rocket.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Rocket.png.meta
+          projectPath: Assets\Art\Projectiles\Rocket.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Beam.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Beam.prefab
+          projectPath: Assets\Prefabs\Bullets\Beam.prefab
+          originalPath: Assets\Prefabs\Bullets\Bullet.prefab
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Beam.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Beam.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Beam.prefab.meta
+          originalPath: Assets\Prefabs\Bullets\Bullet.prefab.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Charge.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Charge.prefab
+          projectPath: Assets\Prefabs\Bullets\Charge.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Charge.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Charge.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Charge.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Missile.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Missile.prefab
+          projectPath: Assets\Prefabs\Bullets\Missile.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Missile.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Missile.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Missile.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Rocket.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Rocket.prefab
+          projectPath: Assets\Prefabs\Bullets\Rocket.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Rocket.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Rocket.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Rocket.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Items.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items.meta
+          projectPath: Assets\Prefabs\Items.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Items\Energy Shield.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items\Energy
+            Shield.prefab
+          projectPath: Assets\Prefabs\Items\Energy Shield.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Items\Energy Shield.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items\Energy
+            Shield.prefab.meta
+          projectPath: Assets\Prefabs\Items\Energy Shield.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Player.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Player.prefab
+          projectPath: Assets\Prefabs\Player.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Player.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Player.prefab.meta
+          projectPath: Assets\Prefabs\Player.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Weapons.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons.meta
+          projectPath: Assets\Prefabs\Weapons.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Weapons\Blaster.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons\Blaster.prefab
+          projectPath: Assets\Prefabs\Weapons\Blaster.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Weapons\Blaster.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons\Blaster.prefab.meta
+          projectPath: Assets\Prefabs\Weapons\Blaster.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Item.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Item.cs
+          projectPath: Assets\Scripts\Item.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Item.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Item.cs.meta
+          projectPath: Assets\Scripts\Item.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+          projectPath: Assets\Scripts\Player.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Weapon.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Weapon.cs
+          projectPath: Assets\Scripts\Weapon.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Weapon.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Weapon.cs.meta
+          projectPath: Assets\Scripts\Weapon.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 90fc3982c0251c1c3e9045bd364d58a036b700da
         mergeA: 
         mergeB: 
@@ -2040,13 +2536,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-02-10T20:21:53.252-05:00
+    updatedTimeString: 2023-02-20T19:27:51.032-05:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-02-10T20:21:58.082-05:00
+    updatedTimeString: 2023-02-20T19:27:50.944-05:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-02-10T20:45:55.175-05:00
+    updatedTimeString: 2023-02-20T19:27:52.689-05:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2111,22 +2607,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e05d0000
-    m_LastClickedID: 24032
-    m_ExpandedIDs: 00000000e05d0000ea5d000000ca9a3bffffff7f
+    m_SelectedIDs: 2a640000
+    m_LastClickedID: 25642
+    m_ExpandedIDs: 00000000e85d00002a64000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2154,7 +2650,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e05d0000
+    m_ExpandedIDs: 00000000e85d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2284,7 +2780,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_ExpandedIDs: 22fbffff24fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2729,7 +3225,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

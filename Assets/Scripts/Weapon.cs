@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour {
-    public float damage = 1.0f;
-    public float cooldown = 0.5f;
-    public float speed = 1.0f;
+    [Header("Design")]
+        [SerializeField] float damage = 1.0f;
+        [SerializeField] float cooldown = 0.5f;
+        [SerializeField] float speed = 1.0f;
+
+    [Header("Programming")]
+        [SerializeField] Sprite sprite;
+
+    public float GetCooldown() {return cooldown;}
 }

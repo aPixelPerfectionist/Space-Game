@@ -46,9 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2a5290a191acb45b0a80cf6d793f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthMax: 5
-  speedBase: 5
-  speedFocus: 3
+  health: 5
+  speed: 5
   dodgeRate: 1
   weapon: {fileID: 8841475315067912381, guid: 3346f4aae5feaf649ac2309ec6bb35e8, type: 3}
   item: {fileID: 0}
