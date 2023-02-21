@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 25
+  controlID: 62
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,23 +59,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1161.6
+    x: 1109.6
     y: 0
-    width: 360
+    width: 412
     height: 708.4
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,7 +93,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 288
+    width: 268
     height: 419.2
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 419.2
-    width: 1161.6
+    width: 1109.6
     height: 289.2
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
@@ -219,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1161.6
+    width: 1109.6
     height: 708.4
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 26
+  controlID: 63
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1161.6
+    width: 1109.6
     height: 419.2
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 27
+  controlID: 64
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -265,9 +265,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 288
+    x: 268
     y: 0
-    width: 873.6
+    width: 841.6
     height: 419.2
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -297,9 +297,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1168.8
+    x: 1116.8
     y: 80.8
-    width: 359
+    width: 411
     height: 687.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -310,9 +310,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 2
   activeTab: 2
   initProjectView:
@@ -452,9 +452,126 @@ MonoBehaviour:
       updatedTimeString: 
       cacheType: 0
   historyView:
-    currentLogHasUpdate: 1
-    currentTrackingStatusHasUpdate: 1
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 90fc3982c0251c1c3e9045bd364d58a036b700da
+      mergeA: 
+      mergeB: 
+      authorName: ebeckwith1
+      authorEmail: Beckwith.Amistad@gmail.com
+      commitEmail: Beckwith.Amistad@gmail.com
+      commitName: ebeckwith1
+      summary: Added Focus Mode, Improved Cooldowns
+      description: Added a focus mode (reduces movement speed for precision dodging,
+        could also change attack patterns but this hasn't been implemented yet).
+        Added CDs for attacking/dodging/using items and improved on what was already
+        there.
+      timeString: 2023-02-13T18:30:35.000-05:00
+      commitTimeString: 2023-02-13T18:30:35.000-05:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+        projectPath: Assets\Scripts\Control.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs.meta
+        projectPath: Assets\Scripts\Control.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+        projectPath: Assets\Scripts\Player.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: ba54ff014f60fb9012c6a9f3602971d7bb6f7bd0
+      mergeA: 
+      mergeB: 
+      authorName: ebeckwith1
+      authorEmail: Beckwith.Amistad@gmail.com
+      commitEmail: Beckwith.Amistad@gmail.com
+      commitName: ebeckwith1
+      summary: You can Shoot now
+      description: The bullets don't do anything though
+      timeString: 2023-02-10T21:26:12.000-05:00
+      commitTimeString: 2023-02-10T21:26:12.000-05:00
+      changes:
+      - path: Assets\Prefabs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs.meta
+        projectPath: Assets\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets.meta
+        projectPath: Assets\Prefabs\Bullets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Bullet.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Bullet.prefab
+        projectPath: Assets\Prefabs\Bullets\Bullet.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Bullet.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Bullet.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Bullet.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+        projectPath: Assets\Scripts\Control.cs
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+        projectPath: Assets\Scripts\Player.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs.meta
+        projectPath: Assets\Scripts\Player.cs.meta
+        originalPath: Assets\Scripts\Control.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: b04b13193df2439e1f6c14fbdf116a30b2a9aa11
       mergeA: 
       mergeB: 
@@ -1057,14 +1174,131 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2023-02-13T18:26:27.032-05:00
+      updatedTimeString: 2023-02-20T19:12:03.096-05:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-02-20T19:04:33.564-05:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 90fc3982c0251c1c3e9045bd364d58a036b700da
+        mergeA: 
+        mergeB: 
+        authorName: ebeckwith1
+        authorEmail: Beckwith.Amistad@gmail.com
+        commitEmail: Beckwith.Amistad@gmail.com
+        commitName: ebeckwith1
+        summary: Added Focus Mode, Improved Cooldowns
+        description: Added a focus mode (reduces movement speed for precision dodging,
+          could also change attack patterns but this hasn't been implemented yet).
+          Added CDs for attacking/dodging/using items and improved on what was already
+          there.
+        timeString: 2023-02-13T18:30:35.000-05:00
+        commitTimeString: 2023-02-13T18:30:35.000-05:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+          projectPath: Assets\Scripts\Control.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs.meta
+          projectPath: Assets\Scripts\Control.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+          projectPath: Assets\Scripts\Player.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: ba54ff014f60fb9012c6a9f3602971d7bb6f7bd0
+        mergeA: 
+        mergeB: 
+        authorName: ebeckwith1
+        authorEmail: Beckwith.Amistad@gmail.com
+        commitEmail: Beckwith.Amistad@gmail.com
+        commitName: ebeckwith1
+        summary: You can Shoot now
+        description: The bullets don't do anything though
+        timeString: 2023-02-10T21:26:12.000-05:00
+        commitTimeString: 2023-02-10T21:26:12.000-05:00
+        changes:
+        - path: Assets\Prefabs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs.meta
+          projectPath: Assets\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets.meta
+          projectPath: Assets\Prefabs\Bullets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Bullet.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Bullet.prefab
+          projectPath: Assets\Prefabs\Bullets\Bullet.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Bullet.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Bullet.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Bullet.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+          projectPath: Assets\Scripts\Control.cs
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+          projectPath: Assets\Scripts\Player.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs.meta
+          projectPath: Assets\Scripts\Player.cs.meta
+          originalPath: Assets\Scripts\Control.cs.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: b04b13193df2439e1f6c14fbdf116a30b2a9aa11
         mergeA: 
         mergeB: 
@@ -1831,7 +2065,7 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
   repositoryProgressValue: 0
-  repositoryProgressMessage: Listing changed files...
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
@@ -1858,7 +2092,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7.2000003
     y: 500
-    width: 1160.6
+    width: 1108.6
     height: 268.2
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1877,22 +2111,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f65d0000
-    m_LastClickedID: 24054
-    m_ExpandedIDs: 00000000de5d0000f25d000000ca9a3bffffff7f
+    m_SelectedIDs: e05d0000
+    m_LastClickedID: 24032
+    m_ExpandedIDs: 00000000e05d0000ea5d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1920,7 +2154,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000de5d0000
+    m_ExpandedIDs: 00000000e05d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1996,9 +2230,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1168.8
+    x: 1116.8
     y: 80.8
-    width: 359
+    width: 411
     height: 687.4
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2039,7 +2273,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7.2000003
     y: 80.8
-    width: 287
+    width: 267
     height: 398.2
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2050,7 +2284,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 24fbffff
+      m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2094,9 +2328,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 295.2
+    x: 275.2
     y: 80.8
-    width: 871.6
+    width: 839.6
     height: 398.2
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2354,9 +2588,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.4930787, y: 0.25349677, z: -0.010814752}
+    m_Target: {x: 0.26450816, y: 0.05915193, z: 0.58111304}
     speed: 2
-    m_Value: {x: 2.4930787, y: 0.25349677, z: -0.010814752}
+    m_Value: {x: 0.26450816, y: 0.05915193, z: 0.58111304}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2407,9 +2641,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.8618375
+    m_Target: 3.8301454
     speed: 2
-    m_Value: 1.8618375
+    m_Value: 3.8301454
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2454,9 +2688,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 295.2
+    x: 275.2
     y: 80.8
-    width: 871.6
+    width: 839.6
     height: 398.2
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2468,7 +2702,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 871.6, y: 377.2}
+  m_TargetSize: {x: 839.6, y: 377.2}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -2483,8 +2717,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -348.63998
-    m_HBaseRangeMax: 348.63998
+    m_HBaseRangeMin: -335.84
+    m_HBaseRangeMax: 335.84
     m_VBaseRangeMin: -150.88
     m_VBaseRangeMax: 150.88
     m_HAllowExceedBaseRangeMin: 1
@@ -2504,23 +2738,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 871.6
+      width: 839.6
       height: 377.2
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 435.8, y: 188.6}
+    m_Translation: {x: 419.8, y: 188.6}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -435.8
+      x: -419.8
       y: -188.6
-      width: 871.6
+      width: 839.6
       height: 377.2
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1089.5, y: 497.75}
+  m_LastWindowPixelSize: {x: 1049.5, y: 497.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -2548,7 +2782,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 7.2000003
     y: 500
-    width: 1160.6
+    width: 1108.6
     height: 268.2
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
