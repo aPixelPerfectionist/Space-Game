@@ -46,3 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   cooldown: 0.5
+  speed: 1
+  projectile: {fileID: -3404081434601362196, guid: ecee23f34aea9594a821eb316e70d76e, type: 3}

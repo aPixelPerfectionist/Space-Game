@@ -4,32 +4,39 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
     [Header("General")]
-        [SerializeField] float health = 5.0f;
-        [SerializeField] float speed = 5.0f;
-        [SerializeField] float dodgeRate = 1.0f;
+        [SerializeField] float health;
+        [SerializeField] Vector2 speed;
+        Vector2 movement;
 
     [Header("Equipment")]
         [SerializeField] Weapon weapon;
+        [SerializeField] Guard guard;
         [SerializeField] Item item;
 
     [Header("Programming")]
         [SerializeField] GameObject spawn;
+        [SerializeField] Rigidbody2D rb2D;
+
+    void OnTriggerEnter2D(Collider2D hit) { // On Hit
+        Projectile projectile = hit.gameObject.GetComponent<Projectile>(); // Check if it's a projectile
+        if (projectile != null && projectile.HitsPlayer()) { // Check if it hits the player
+            health -= projectile.GetDamage(); // Deal damage
+            Destroy(projectile.gameObject); // Destroy the projectile
+            if (health <= 0) {Destroy(gameObject);} // Destroy the player if health <= 0
+        }
+    }
 
     public void Move() {
-        float temp = Input.GetAxis("Horizontal") * speed;
-        temp *= Time.deltaTime;
-        transform.Translate(temp, 0, 0);
-
-        temp = Input.GetAxis("Vertical") * speed;
-        temp *= Time.deltaTime;
-        transform.Translate(0, temp, 0);
+        movement.x = Input.GetAxis("Horizontal") * speed.x;
+        movement.y = Input.GetAxis("Vertical") * speed.y;
+        rb2D.velocity = movement;
     }
 
     public Weapon GetWeapon() {return weapon;}
+    public Guard GetGuard() {return guard;}
     public Item GetItem() {return item;}
     public GameObject GetSpawn() {return spawn;}
 
     public float GetHealth() {return health;}
-    public float GetSpeed() {return speed;}
-    public float GetDodge() {return dodgeRate;}
+    public Vector2 GetSpeed() {return speed;}
 }

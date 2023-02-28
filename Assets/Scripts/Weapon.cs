@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour {
     [Header("Design")]
-        [SerializeField] float damage = 1.0f;
-        [SerializeField] float cooldown = 0.5f;
-        [SerializeField] float speed = 1.0f;
+        [SerializeField] float damage;
+        [SerializeField] float cooldown;
+        [SerializeField] float speed;
 
     [Header("Programming")]
-        [SerializeField] Sprite sprite;
+        [SerializeField] Projectile projectile;
 
     public float GetCooldown() {return cooldown;}
+    public Projectile GetProjectile() {return projectile;}
 }
