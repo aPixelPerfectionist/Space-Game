@@ -21,7 +21,7 @@ public class Control : MonoBehaviour {
     /*--------------------------------\
     | General Functions
     \================================*/
-    void Start() { // Initialize variables
+    void Awake() { // Initialize Variables
         spawn = player.GetSpawn();
         weapon = player.GetWeapon();
         guard = player.GetGuard();
@@ -59,6 +59,7 @@ public class Control : MonoBehaviour {
         if (dodgeTime + guard.GetCooldown() < Time.time) {return false;}
         return false;
     }
+
     bool CanAttack() { // check if the player can attack
         if (attackTime + weapon.GetCooldown() < Time.time) {return true;}
         return false;
