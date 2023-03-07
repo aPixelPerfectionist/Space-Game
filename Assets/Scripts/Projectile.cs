@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour {
     [SerializeField] float damage;
+    [SerializeField] float knockback; // force
+    [SerializeField] float lifetime; // -1 is infinite
 
     [SerializeField] int piercing; // -1 is infinite, 0 is no
     [SerializeField] int bouncing; // -1 is infinite, 0 is no
@@ -11,13 +13,14 @@ public class Projectile : MonoBehaviour {
     [SerializeField] bool hitsEnemy;
     [SerializeField] bool hitsPlayer;
 
-    int LIFETIME = 20;
+    Rigidbody2D rb2D;
 
     void Awake() {
-        Destroy(gameObject, LIFETIME);
+        if (lifetime >= 0) {Destroy(gameObject, lifetime);}
     }
 
     public float GetDamage() {return damage;}
+    public float GetKnockback() {return knockback;}
 
     public int GetPiercing() {return piercing;}
     public void SetPiercing(int i) {piercing = i;}

@@ -47,4 +47,4 @@ MonoBehaviour:
   damage: 1
   cooldown: 0.5
   speed: 1
-  projectile: {fileID: -3404081434601362196, guid: ecee23f34aea9594a821eb316e70d76e, type: 3}
+  projectile: {fileID: -1304712052389272372, guid: 891d6bd7cc9453f4687b76532a53ffc3, type: 3}

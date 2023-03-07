@@ -14,21 +14,25 @@ public class Control : MonoBehaviour {
 
     List<Projectile> projectiles = new List<Projectile>();
 
-    float attackTime = 0.0f;
-    float dodgeTime = 0.0f;
-    float useTime = 0.0f;
+    float attackTime;
+    float dodgeTime;
+    float useTime;
 
     /*--------------------------------\
     | General Functions
     \================================*/
-    void Awake() { // Initialize Variables
+    void Awake() { // initialize Variables
         spawn = player.GetSpawn();
         weapon = player.GetWeapon();
         guard = player.GetGuard();
         item = player.GetItem();
+
+        attackTime = weapon.GetCooldown() * -1;
+        dodgeTime = guard.GetCooldown() * -1;
+        if (item != null) {useTime = item.GetCooldown() * -1;}
     }
 
-    void FixedUpdate() { // Takes care of anything that needs to be updated regularly
+    void FixedUpdate() { // takes care of anything that needs to be updated regularly
         if (Input.GetKey("z") && CanAttack()) {Attack();}
         if (Input.GetKey("x") && CanDodge()) {Dodge();}
         if (Input.GetKey("c") && CanUse()) {Use();}
@@ -40,11 +44,13 @@ public class Control : MonoBehaviour {
     \================================*/
     void Attack() { // spawns a bullet and creates a time stamp
         projectiles.Add(Instantiate<Projectile>(weapon.GetProjectile(), spawn.transform));
+        Physics2D.IgnoreCollision(projectiles[projectiles.Count-1].GetComponent<Collider2D>(), player.GetComponent<Collider2D>()); // make the bullet ignore the player
         attackTime = Time.time;
     }
 
-    void Dodge() { // creates a time stamp
+    void Dodge() { // executes the Guard Function and creates a time stamp
         dodgeTime = Time.time;
+        player.Guard();
     }
 
     void Use() { // creates a time stamp

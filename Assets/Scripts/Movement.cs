@@ -20,4 +20,6 @@ public class Movement : MonoBehaviour {
         movement.y = direction.y * speed.y;
         rb2D.velocity = movement;
     }
+
+    public Vector2 GetDirection() {return direction;}
 }
