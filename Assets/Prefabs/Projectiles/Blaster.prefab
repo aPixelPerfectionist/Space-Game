@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4802026355994252377}
   - component: {fileID: -1304712052389272372}
   - component: {fileID: 6107251169299612343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Blaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +127,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.21, y: 0.05}
+    oldSize: {x: 0.65625, y: 0.15625}
     newSize: {x: 0.21, y: 0.05}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

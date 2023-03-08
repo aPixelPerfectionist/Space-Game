@@ -30,6 +30,10 @@ public class Control : MonoBehaviour {
         attackTime = weapon.GetCooldown() * -1;
         dodgeTime = guard.GetCooldown() * -1;
         if (item != null) {useTime = item.GetCooldown() * -1;}
+
+        Physics2D.IgnoreLayerCollision(3, 7, true); // make enemies ignore the screen borders
+        Physics2D.IgnoreLayerCollision(3, 8, true); // make projectiles ignore the screen borders
+        Physics2D.IgnoreLayerCollision(8, 8, true); // make projectiles ignore each other
     }
 
     void FixedUpdate() { // takes care of anything that needs to be updated regularly

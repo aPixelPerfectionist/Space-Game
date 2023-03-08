@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4802026355994252377}
   - component: {fileID: -1304712052389272372}
   - component: {fileID: 6107251169299612343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Missile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,6 +245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 5
+  knockback: 0
   lifetime: 20
   piercing: 0
   bouncing: 0

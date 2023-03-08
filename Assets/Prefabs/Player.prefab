@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8117651827349724925}
   - component: {fileID: 5907997614244779954}
   - component: {fileID: 1254623719032463702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -273,6 +273,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 5
   speed: {x: 5, y: 5}
+  sfxHit: {fileID: 0}
+  sfxDie: {fileID: 0}
   weapon: {fileID: 8841475315067912381, guid: 3346f4aae5feaf649ac2309ec6bb35e8, type: 3}
   guard: {fileID: 2374208238254487903, guid: 88448dab3fcb0994bb64ee334bef1569, type: 3}
   item: {fileID: 0}
@@ -286,7 +288,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1254623720106026798}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spawn
   m_TagString: Player
   m_Icon: {fileID: 0}

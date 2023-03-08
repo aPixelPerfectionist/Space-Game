@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5464090697470287970}
   - component: {fileID: 5464090697470287971}
   - component: {fileID: 8877893842280911055}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Asteroid Large
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,8 +246,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 6
+  canBeHit: 1
   sfxHit: {fileID: 8300000, guid: 263229585a07ed94e88c5f3b4e861944, type: 3}
   sfxDie: {fileID: 8300000, guid: 758e33c356f97b940ab6640d2df47960, type: 3}
+  sfxInv: {fileID: 0}
 --- !u!114 &5464090697470287971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -275,6 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  knockback: 0
   lifetime: -1
   piercing: 0
   bouncing: 0
