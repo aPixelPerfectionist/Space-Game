@@ -49,10 +49,12 @@ public class Player : MonoBehaviour {
     }
 
     void OnDie() {
+        if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
         SceneManager.LoadScene("Restart");
     }
 
     IEnumerator OnHit() {
+        if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
         canBeHit = false;
         spriteR.color = Color.red;
         yield return new WaitForSeconds(0.25f);
@@ -62,7 +64,7 @@ public class Player : MonoBehaviour {
 
     IEnumerator OnGuard() {
         AudioClip sfx = guard.GetSFX();
-        audioS.PlayOneShot(sfx, sfx.length);
+        if (sfx != null) {audioS.PlayOneShot(sfx, sfx.length);}
         canBeHit = false;
         spriteR.color = Color.blue;
         yield return new WaitForSeconds(guard.GetDuration());

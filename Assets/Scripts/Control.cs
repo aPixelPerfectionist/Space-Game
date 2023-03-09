@@ -12,8 +12,6 @@ public class Control : MonoBehaviour {
     Guard guard;
     Item item;
 
-    List<Projectile> projectiles = new List<Projectile>();
-
     float attackTime;
     float dodgeTime;
     float useTime;
@@ -47,8 +45,7 @@ public class Control : MonoBehaviour {
     | Actions
     \================================*/
     void Attack() { // spawns a bullet and creates a time stamp
-        projectiles.Add(Instantiate<Projectile>(weapon.GetProjectile(), spawn.transform));
-        Physics2D.IgnoreCollision(projectiles[projectiles.Count-1].GetComponent<Collider2D>(), player.GetComponent<Collider2D>()); // make the bullet ignore the player
+        StartCoroutine(Fire(weapon.GetRate()));
         attackTime = Time.time;
     }
 
@@ -60,6 +57,18 @@ public class Control : MonoBehaviour {
     void Use() { // creates a time stamp
         useTime = Time.time;
         if (item.IsConsumable() == true) {item = null;}
+    }
+
+    /*--------------------------------\
+    | Coroutines
+    \================================*/
+    IEnumerator Fire(float time) {
+        for (int i = weapon.GetRounds(); i > 0; i--) {
+            Projectile projectile = Instantiate<Projectile>(weapon.GetProjectile(), spawn.transform); // spawn projectile
+            Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), player.GetComponent<Collider2D>()); // make it ignore the player
+            yield return new WaitForSeconds(time);
+        }
+        
     }
 
     /*--------------------------------\
@@ -85,4 +94,8 @@ public class Control : MonoBehaviour {
         return false;
     }
 
+    /*--------------------------------\
+    | Misc
+    \================================*/
+    
 }

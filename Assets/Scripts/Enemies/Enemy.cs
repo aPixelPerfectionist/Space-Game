@@ -6,6 +6,8 @@ public class Enemy : MonoBehaviour {
     [Header("General")]
         [SerializeField] float health;
         [SerializeField] bool canBeHit;
+        [SerializeField] bool explodeOnDeath;
+        [SerializeField] Projectile explosion;
 
     [Header("Audio")]
         [SerializeField] AudioClip sfxHit;
@@ -26,40 +28,40 @@ public class Enemy : MonoBehaviour {
     }
 
     void OnCollisionEnter2D(Collision2D hit) { // called when a triggered collision occurs
-        if (canBeHit) {
-            Projectile projectile = hit.gameObject.GetComponent<Projectile>(); // check if it's a projectile
-            if (projectile != null) { // check if it's a projectile
+        Projectile projectile = hit.gameObject.GetComponent<Projectile>();
+        if (projectile != null) { // check if it's a projectile
+            if (canBeHit) {
                 health -= projectile.GetDamage(); // take damage
-                int piercing = projectile.GetPiercing();
-
-                switch (piercing) { // check if the projectile is piercing
-                    case -1: break; // if it has infinite pierce do nothing
-                    case 0: Destroy(projectile.gameObject); break; // if it has 0 destroy the projectile
-                    default: projectile.SetPiercing(piercing--); break; // otherwise decrement by 1
-                }
-
                 Vector2 direction = projectile.gameObject.GetComponent<Movement>().GetDirection();
                 float knockback = projectile.GetKnockback();
                 rb2D.AddForce(new Vector2(direction.x * knockback, direction.y * knockback));
-
                 StartCoroutine(OnHit()); // Process being hit
             }
-        }
-        else if (sfxInv != null) {
-            audioS.PlayOneShot(sfxInv, sfxInv.length);
+            else if (sfxInv != null) {audioS.PlayOneShot(sfxInv, sfxInv.length);}
+            
+            int piercing = projectile.GetPiercing();
+
+            switch (piercing) { // check if the projectile is piercing
+                case -1: break; // if it has infinite pierce do nothing
+                case 0: Destroy(projectile.gameObject); break; // if it has 0 destroy the projectile
+                default: projectile.SetPiercing(piercing--); break; // otherwise decrement by 1
+            }
         }
     }
 
     IEnumerator OnHit() { // process being hit
         spriteR.color = Color.red;
         if (health <= 0) {OnDie();} // check if killed
-        else {audioS.PlayOneShot(sfxHit, sfxHit.length);}
+        else if (sfxInv != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
         yield return new WaitForSeconds(HITTIME);
         spriteR.color = Color.white; // return to normal
     }
 
     void OnDie() { // process being destroyed
-        audioS.PlayOneShot(sfxDie, sfxDie.length);
+        rb2D.Sleep();
+        canBeHit = false;
+        if (sfxInv != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
+        if (explodeOnDeath) {Instantiate<Projectile>(explosion, transform);}
         Destroy(gameObject, DIETIME);
     }
 
