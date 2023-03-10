@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Movement : MonoBehaviour {
-    [SerializeField] Vector2 speed;
-    [SerializeField] Vector2 direction;
+    [SerializeField] Vector2 speed = new Vector2(3f, 3f);
+    [SerializeField] Vector2 direction = new Vector2(-1f, 0f);
     Vector2 movement;
 
     Rigidbody2D rb2D;

@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Enemy : MonoBehaviour {
     [Header("General")]
-        [SerializeField] float health;
-        [SerializeField] bool canBeHit;
-        [SerializeField] bool explodeOnDeath;
+        [SerializeField] float health = 5;
+        [SerializeField] bool canBeHit = true;
+        [SerializeField] bool explodeOnDeath = false;
         [SerializeField] Projectile explosion;
 
     [Header("Audio")]
@@ -29,7 +30,7 @@ public class Enemy : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D hit) { // called when a triggered collision occurs
         Projectile projectile = hit.gameObject.GetComponent<Projectile>();
-        if (projectile != null) { // check if it's a projectile
+        if (projectile != null && projectile.HitsEnemy()) { // check if it's a projectile
             if (canBeHit) {
                 health -= projectile.GetDamage(); // take damage
                 Vector2 direction = projectile.gameObject.GetComponent<Movement>().GetDirection();
@@ -61,7 +62,10 @@ public class Enemy : MonoBehaviour {
         rb2D.Sleep();
         canBeHit = false;
         if (sfxInv != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
-        if (explodeOnDeath) {Instantiate<Projectile>(explosion, transform);}
+        if (explodeOnDeath) {
+            Instantiate<Projectile>(explosion, transform);
+            spriteR.enabled = false;
+        }
         Destroy(gameObject, DIETIME);
     }
 

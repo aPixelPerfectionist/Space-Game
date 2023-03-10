@@ -1,13 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
     [Header("General")]
-        [SerializeField] float health;
-        [SerializeField] Vector2 speed;
+        [SerializeField] float health = 5;
+        [SerializeField] Vector2 speed = new Vector2(5f, 6f);
         Vector2 movement;
         bool canBeHit = true;
 

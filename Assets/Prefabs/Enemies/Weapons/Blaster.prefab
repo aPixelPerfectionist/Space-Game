@@ -46,5 +46,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rounds: 1
   rate: 0.15
-  cooldown: 1
+  cooldown: 3
   projectile: {fileID: -1304712052389272372, guid: 381fc0ab581e8cb43ac4f0e036defbd2, type: 3}

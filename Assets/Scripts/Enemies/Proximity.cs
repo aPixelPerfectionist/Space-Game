@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Proximity : MonoBehaviour {
     [Header("General")]
-        [SerializeField] bool hitsEnemy;
-        [SerializeField] bool hitsPlayer;
-        bool canBeHit;
+        [SerializeField] bool hitsEnemy = true;
+        [SerializeField] bool hitsPlayer = true;
+        bool canBeHit = true;
 
     [Header("Visual")]
         [SerializeField] Sprite spriteA;
