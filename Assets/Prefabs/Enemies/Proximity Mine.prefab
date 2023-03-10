@@ -53,6 +53,7 @@ MonoBehaviour:
   health: 3
   canBeHit: 0
   explodeOnDeath: 1
+  explodeOnTouch: 1
   explosion: {fileID: 3390139966314061499, guid: a0212992612b3374e967ae9a3ccbae2e, type: 3}
   sfxHit: {fileID: 0}
   sfxDie: {fileID: 0}

@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour {
         [SerializeField] float health = 5;
         [SerializeField] bool canBeHit = true;
         [SerializeField] bool explodeOnDeath = false;
+        [SerializeField] bool explodeOnTouch = false;
         [SerializeField] Projectile explosion;
 
     [Header("Audio")]
@@ -30,12 +31,20 @@ public class Enemy : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D hit) { // called when a triggered collision occurs
         Projectile projectile = hit.gameObject.GetComponent<Projectile>();
-        if (projectile != null && projectile.HitsEnemy()) { // check if it's a projectile
+
+        if ((explodeOnTouch) && (hit.gameObject.GetComponent<Player>() || hit.gameObject.GetComponent<Enemy>() )) {
+            health = 0;
+            StartCoroutine(OnHit());
+        }
+
+        else if (projectile != null && projectile.HitsEnemy()) { // check if it's a projectile
             if (canBeHit) {
                 health -= projectile.GetDamage(); // take damage
-                Vector2 direction = projectile.gameObject.GetComponent<Movement>().GetDirection();
-                float knockback = projectile.GetKnockback();
-                rb2D.AddForce(new Vector2(direction.x * knockback, direction.y * knockback));
+                if (projectile.gameObject.GetComponent<Movement>() != null) {
+                    Vector2 direction = projectile.gameObject.GetComponent<Movement>().GetDirection();
+                    float knockback = projectile.GetKnockback();
+                    rb2D.AddForce(new Vector2(direction.x * knockback, direction.y * knockback));
+                }
                 StartCoroutine(OnHit()); // Process being hit
             }
             else if (sfxInv != null) {audioS.PlayOneShot(sfxInv, sfxInv.length);}
@@ -53,7 +62,7 @@ public class Enemy : MonoBehaviour {
     IEnumerator OnHit() { // process being hit
         spriteR.color = Color.red;
         if (health <= 0) {OnDie();} // check if killed
-        else if (sfxInv != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
+        else if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
         yield return new WaitForSeconds(HITTIME);
         spriteR.color = Color.white; // return to normal
     }
@@ -61,7 +70,7 @@ public class Enemy : MonoBehaviour {
     void OnDie() { // process being destroyed
         rb2D.Sleep();
         canBeHit = false;
-        if (sfxInv != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
+        if (sfxDie != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
         if (explodeOnDeath) {
             Instantiate<Projectile>(explosion, transform);
             spriteR.enabled = false;

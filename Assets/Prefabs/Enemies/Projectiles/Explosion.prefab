@@ -47,11 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef69cd7da05a10429fe61a018e7ddf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 3
   knockback: 0
-  lifetime: 3
+  lifetime: 10
   piercing: -1
-  bouncing: 0
   hitsEnemy: 1
   hitsPlayer: 1
 --- !u!212 &4533849542427026536
@@ -93,7 +92,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -575698605
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
