@@ -55,6 +55,7 @@ MonoBehaviour:
   health: 3
   canBeHit: 1
   explodeOnDeath: 0
+  explodeOnTouch: 0
   explosion: {fileID: 0}
   sfxHit: {fileID: 8300000, guid: 263229585a07ed94e88c5f3b4e861944, type: 3}
   sfxDie: {fileID: 8300000, guid: 758e33c356f97b940ab6640d2df47960, type: 3}
@@ -85,7 +86,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fad17793416b3341a58f47d2b4b8da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 3, y: 0}
+  speed: {x: 1, y: 0}
   direction: {x: -1, y: 0}
 --- !u!212 &2770610205899382793
 SpriteRenderer:
