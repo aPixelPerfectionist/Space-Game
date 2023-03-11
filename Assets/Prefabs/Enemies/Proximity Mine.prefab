@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 7006522094769564645}
   - component: {fileID: 8701063232147716523}
   - component: {fileID: 5165092866341528410}
-  - component: {fileID: -4019572538653083389}
   m_Layer: 7
   m_Name: Proximity Mine
   m_TagString: Untagged
@@ -189,18 +188,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!111 &-4019572538653083389
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5486934880356903371}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0

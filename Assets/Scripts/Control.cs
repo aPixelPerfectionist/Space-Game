@@ -2,11 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 
 using UnityEngine;
+using UnityEngine.UI;
+
+using TMPro;
 
 public class Control : MonoBehaviour {
 
     [Header("Programming")]
         [SerializeField] Player player;
+        [SerializeField] TextMeshProUGUI scoreText;
+        [SerializeField] Image imgHealth;
+        [SerializeField] Image imgCharge;
+        [SerializeField] Image imgPortrait;
 
     GameObject spawn;
     Weapon weapon;
@@ -16,6 +23,8 @@ public class Control : MonoBehaviour {
     float attackTime;
     float dodgeTime;
     float useTime;
+
+    int scoreInt = 0;
 
     /*--------------------------------\
     | General Functions
@@ -42,6 +51,11 @@ public class Control : MonoBehaviour {
         player.Move();
     }
 
+    void Update() {
+        imgHealth.fillAmount = Mathf.Clamp(player.GetHealth()/5, 0, 1f);
+        imgCharge.fillAmount = Mathf.Clamp((dodgeTime + guard.GetCooldown() - Time.time)/guard.GetCooldown(), 0, 1f);
+    }
+
     /*--------------------------------\
     | Actions
     \================================*/
@@ -53,6 +67,14 @@ public class Control : MonoBehaviour {
     void Dodge() { // executes the Guard Function and creates a time stamp
         dodgeTime = Time.time;
         player.Guard();
+        
+        StartCoroutine(Temp());
+    }
+
+    IEnumerator Temp() {
+        imgPortrait.gameObject.SetActive(true);
+        yield return new WaitForSeconds(guard.GetDuration());
+        imgPortrait.gameObject.SetActive(false);
     }
 
     void Use() { // creates a time stamp
@@ -68,8 +90,7 @@ public class Control : MonoBehaviour {
             Projectile projectile = Instantiate<Projectile>(weapon.GetProjectile(), spawn.transform); // spawn projectile
             Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), player.GetComponent<Collider2D>()); // make it ignore the player
             yield return new WaitForSeconds(time);
-        }
-        
+        }     
     }
 
     /*--------------------------------\
@@ -98,5 +119,8 @@ public class Control : MonoBehaviour {
     /*--------------------------------\
     | Misc
     \================================*/
-    
+    public void SetScore(int i) {
+        scoreInt += i;
+        scoreText.text = scoreInt.ToString();
+    }
 }

@@ -22,13 +22,14 @@ public class Player : MonoBehaviour {
 
     [Header("Programming")]
         [SerializeField] GameObject spawn;
+        [SerializeField] Sprite sprite;
 
     AudioSource audioS;
     SpriteRenderer spriteR;
     Rigidbody2D rb2D;
 
     void Awake() { // Initialize Variables
-        audioS = GetComponent<AudioSource>();
+        audioS = Camera.main.GetComponent<AudioSource>();
         spriteR = GetComponent<SpriteRenderer>();
         rb2D = GetComponent<Rigidbody2D>();
     }
@@ -43,6 +44,11 @@ public class Player : MonoBehaviour {
                 case 0: Destroy(projectile.gameObject); break; // If it has 0 destroy the projectile
                 default: projectile.SetPiercing(piercing--); break; // Otherwise decrement by 1
             }
+            if (health <= 0) {OnDie();}
+            else {StartCoroutine(OnHit());}
+        }
+        else if (hit.gameObject.GetComponent<Enemy>() && canBeHit) {
+            health--;
             if (health <= 0) {OnDie();}
             else {StartCoroutine(OnHit());}
         }
@@ -66,9 +72,10 @@ public class Player : MonoBehaviour {
         AudioClip sfx = guard.GetSFX();
         if (sfx != null) {audioS.PlayOneShot(sfx, sfx.length);}
         canBeHit = false;
-        spriteR.color = Color.blue;
+        Sprite temp = spriteR.sprite;
+        spriteR.sprite = sprite;
         yield return new WaitForSeconds(guard.GetDuration());
-        spriteR.color = Color.white;
+        spriteR.sprite = temp;
         canBeHit = true;
     }
 
