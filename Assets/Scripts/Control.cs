@@ -68,13 +68,22 @@ public class Control : MonoBehaviour {
         dodgeTime = Time.time;
         player.Guard();
         
-        StartCoroutine(Temp());
+        StartCoroutine(Phase());
     }
 
-    IEnumerator Temp() {
+    IEnumerator Phase() {
+	// make enemies/bullets pass through the player while phasing
+	Physics2D.IgnoreLayerCollision(6, 7, true);
+	Physics2D.IgnoreLayerCollision(6, 8, true);
+
+	// change the player's portrait while phasing
         imgPortrait.gameObject.SetActive(true);
         yield return new WaitForSeconds(guard.GetDuration());
         imgPortrait.gameObject.SetActive(false);
+
+	// make enemies/bullets hit the player while not phasing
+	Physics2D.IgnoreLayerCollision(6, 7, false);
+	Physics2D.IgnoreLayerCollision(6, 8, false);
     }
 
     void Use() { // creates a time stamp
