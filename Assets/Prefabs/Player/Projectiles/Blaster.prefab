@@ -53,7 +53,6 @@ MonoBehaviour:
   knockback: 1
   lifetime: 20
   piercing: 0
-  bouncing: 0
   hitsEnemy: 1
   hitsPlayer: 0
 --- !u!114 &6107251169299612343
@@ -68,7 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fad17793416b3341a58f47d2b4b8da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 3, y: 0}
+  speed: {x: 13, y: 0}
   direction: {x: 1, y: 0}
 --- !u!212 &7504054597949623143
 SpriteRenderer:
@@ -109,7 +108,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -575698605
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 1
   m_Sprite: {fileID: 646376545, guid: 740f444a4b3f1fc4292a5772478c7c21, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
