@@ -1,15 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
+using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour {
-    private static AudioManager _instance;
-    public static AudioManager Instance {
-        get {
-            if(_instance == null){Debug.LogError(message: "AudioManager is null.");}
-            return _instance;
-        }
+
+    [SerializeField] AudioSource audioBGM;
+    [SerializeField] AudioSource audioSFX;
+
+    void Awake() {
+        audioBGM.mute = false;
+        audioSFX.mute = false;
+        audioBGM.volume = 1;
+        audioSFX.volume = 1;
     }
 
-    private void Awake() {_instance = this;}
+    public void ChangeBGM(Slider vol) {audioBGM.volume = vol.value;}
+    public void ChangeSFX(Slider vol) {audioSFX.volume = vol.value;}
+
+    public void MuteBGM() {audioBGM.mute = !audioBGM.mute;}
+    public void MuteSFX() {audioSFX.mute = !audioSFX.mute;}
+
+    public void ChangeClip(AudioClip clip) {
+        audioBGM.clip = clip;
+        audioBGM.Play();
+    }
 }
