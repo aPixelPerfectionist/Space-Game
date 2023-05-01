@@ -9,9 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/Main.unity
     guid: 3e522dbe6d27ab243a1093088fb513b6
   - enabled: 1
+    path: Assets/Scenes/Map.unity
+    guid: ba95855beb51f9d4c96c43deeaa7f4fa
+  - enabled: 1
     path: Assets/Scenes/Battle.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Event.unity
+    guid: 9fb9a7d727f72e9419682aeacc5f36fa
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 9fc626aad1d48c64fa887efc61a66fd2
+  - enabled: 1
     path: Assets/Scenes/Restart.unity
     guid: 7e9e54e983a8c6c439d17278a10b6e72
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 1282f67c9670c374199c889b52997098
   m_configObjects: {}

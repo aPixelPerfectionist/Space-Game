@@ -4,19 +4,14 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
     public static GameManager Instance { get; private set; }
-    AudioManager audioManager;
-    MenuManager menuManager;
 
-
-    private void Awake() {
+    private void Awake() { // ensure this is the only Instance
         if (Instance != null && Instance != this) {
             Destroy(this);
             return;
         }
 
         Instance = this;
-        audioManager = GetComponentInChildren<AudioManager>();
-        menuManager = GetComponentInChildren<MenuManager>();
     }
 
 }

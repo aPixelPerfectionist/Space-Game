@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour {
     float DIETIME = 0.5F; // time after being killed
 
     void Awake() { // initialize Variables
-        audioS = Camera.main.GetComponent<AudioSource>();
+        audioS = AudioManager.Instance.GetAudioSource();
         spriteR = GetComponent<SpriteRenderer>();
         rb2D = GetComponent<Rigidbody2D>();
     }

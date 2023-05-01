@@ -29,7 +29,7 @@ public class Player : MonoBehaviour {
     Rigidbody2D rb2D;
 
     void Awake() { // Initialize Variables
-        audioS = Camera.main.GetComponent<AudioSource>();
+        audioS = AudioManager.Instance.GetAudioSource();
         spriteR = GetComponent<SpriteRenderer>();
         rb2D = GetComponent<Rigidbody2D>();
     }
