@@ -293,6 +293,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Player_Ship_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cee6333738f73842bded692967fa928
+      internalID: -290087327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Ship_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0511ac0265b37f749a52e2ceb954abc2
+      internalID: -447748384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Ship_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ba7cf496c90594dac96c9a447c791b
+      internalID: -1594405266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -306,12 +369,15 @@ TextureImporter:
     nameFileIdTable:
       Player_Ship_1: -310407232
       Player_Ship_5: -1950449413
+      Player_Ship_9: -290087327
       Player_Ship_3: -989875482
       Player_Ship_2: 992668005
       Player_Ship_7: -1250350049
       Player_Ship_0: -72718841
       Player_Ship_4: -91889684
+      Player_Ship_11: -1594405266
       Player_Ship_8: 1225021086
+      Player_Ship_10: -447748384
       Player_Ship_6: 1420670848
   spritePackingTag: 
   pSDRemoveMatte: 0

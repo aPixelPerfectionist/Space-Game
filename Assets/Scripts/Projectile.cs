@@ -14,10 +14,13 @@ public class Projectile : MonoBehaviour {
     [SerializeField] bool hitsEnemy = false;
     [SerializeField] bool hitsPlayer = false;
 
+    [SerializeField] AudioClip sfx;
+
     Rigidbody2D rb2D;
 
     void Awake() {
         if (lifetime >= 0) {Destroy(gameObject, lifetime);}
+        if (sfx != null) {AudioManager.Instance.GetAudioSource().PlayOneShot(sfx, sfx.length);}
     }
 
     public float GetDamage() {return damage;}

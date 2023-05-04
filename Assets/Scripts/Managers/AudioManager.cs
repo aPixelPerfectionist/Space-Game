@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class AudioManager : MonoBehaviour {
-    public static AudioManager Instance { get; private set; }
+    public static AudioManager Instance {get; private set;}
     [SerializeField] AudioSource audioBGM;
     [SerializeField] AudioSource audioSFX;
 

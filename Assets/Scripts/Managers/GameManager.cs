@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
-    public static GameManager Instance { get; private set; }
+    public static GameManager Instance {get; private set;}
 
     private void Awake() { // ensure this is the only Instance
         if (Instance != null && Instance != this) {
@@ -13,5 +13,7 @@ public class GameManager : MonoBehaviour {
 
         Instance = this;
     }
+
+    public void Reset() {}
 
 }

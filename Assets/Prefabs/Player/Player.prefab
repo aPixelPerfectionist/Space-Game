@@ -57,7 +57,7 @@ MonoBehaviour:
   guard: {fileID: 2374208238254487903, guid: 88448dab3fcb0994bb64ee334bef1569, type: 3}
   item: {fileID: 0}
   spawn: {fileID: 1254623720106026799}
-  sprite: {fileID: 1420670848, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
+  sprite: {fileID: -91889684, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
 --- !u!212 &6934287008441425342
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -99,7 +99,7 @@ SpriteRenderer:
   m_SortingLayerID: -380572425
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 992668005, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
+  m_Sprite: {fileID: -72718841, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
