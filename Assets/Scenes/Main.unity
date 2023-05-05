@@ -4894,7 +4894,7 @@ AudioSource:
   m_Volume: 0.75
   m_Pitch: 1
   Loop: 1
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -5005,7 +5005,7 @@ AudioSource:
   m_Volume: 0.75
   m_Pitch: 1
   Loop: 0
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -5189,11 +5189,11 @@ MonoBehaviour:
   titleBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
   mapBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
   battleBGM: {fileID: 8300000, guid: c3e52f6a91e47f445992c1ccb3686a0f, type: 3}
-  eventBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
+  eventBGM: {fileID: 8300000, guid: 247580a2e98942a4697f6660fd878cd4, type: 3}
   shopBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
   bossBGM: {fileID: 8300000, guid: c3e52f6a91e47f445992c1ccb3686a0f, type: 3}
   restartBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
-  creditsBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
+  creditsBGM: {fileID: 8300000, guid: 247580a2e98942a4697f6660fd878cd4, type: 3}
   audioBGM: {fileID: 487299283519555415}
   audioSFX: {fileID: 1154250490701215692}
 --- !u!4 &8411619215831186533
