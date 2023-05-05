@@ -3598,18 +3598,6 @@ MonoBehaviour:
           m_StringArgument: Battle
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 8174366203067668635}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-        m_MethodName: ChangeClip
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 8300000, guid: c3e52f6a91e47f445992c1ccb3686a0f, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
 --- !u!114 &1471704970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4901,7 +4889,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.75
   m_Pitch: 1
@@ -5198,6 +5186,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1abdb00ff5e2f7148bd036a125b484f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  titleBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
+  mapBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
+  battleBGM: {fileID: 8300000, guid: c3e52f6a91e47f445992c1ccb3686a0f, type: 3}
+  eventBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
+  shopBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
+  bossBGM: {fileID: 8300000, guid: c3e52f6a91e47f445992c1ccb3686a0f, type: 3}
+  restartBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
+  creditsBGM: {fileID: 8300000, guid: 54540c2f8ccbe96489df359a16aac523, type: 3}
   audioBGM: {fileID: 487299283519555415}
   audioSFX: {fileID: 1154250490701215692}
 --- !u!4 &8411619215831186533

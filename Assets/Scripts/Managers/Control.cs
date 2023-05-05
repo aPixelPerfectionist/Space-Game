@@ -38,10 +38,6 @@ public class Control : MonoBehaviour {
         attackTime = weapon.GetCooldown() * -1;
         dodgeTime = guard.GetCooldown() * -1;
         if (item != null) {useTime = item.GetCooldown() * -1;}
-
-        Physics2D.IgnoreLayerCollision(3, 7, true); // make enemies ignore the screen borders
-        Physics2D.IgnoreLayerCollision(3, 8, true); // make projectiles ignore the screen borders
-        Physics2D.IgnoreLayerCollision(8, 8, true); // make projectiles ignore each other
     }
 
     void FixedUpdate() { // takes care of anything that needs to be updated regularly
@@ -49,10 +45,7 @@ public class Control : MonoBehaviour {
         if (Input.GetKey("x") && CanDodge()) {Dodge();}
         if (Input.GetKey("c") && CanUse()) {Use();}
         player.Move();
-    }
 
-    void Update() {
-        imgHealth.fillAmount = Mathf.Clamp(player.GetHealth()/5, 0, 1f);
         imgCharge.fillAmount = Mathf.Clamp((dodgeTime + guard.GetCooldown() - Time.time)/guard.GetCooldown(), 0, 1f);
     }
 

@@ -28,21 +28,22 @@ public class Player : MonoBehaviour {
     SpriteRenderer spriteR;
     Rigidbody2D rb2D;
 
-    void Awake() { // Initialize Variables
+    void Awake() { // initialize Variables
         audioS = AudioManager.Instance.GetAudioSource();
         spriteR = GetComponent<SpriteRenderer>();
         rb2D = GetComponent<Rigidbody2D>();
     }
 
-    void OnCollisionEnter2D(Collision2D hit) { // On Hit
-        Projectile projectile = hit.gameObject.GetComponent<Projectile>(); // Check if it's a projectile
-        if (projectile != null && projectile.HitsPlayer() && canBeHit) { // Check if it hits the player
-            health -= projectile.GetDamage(); // Deal damage
+    void OnCollisionEnter2D(Collision2D hit) { // on Hit
+        Projectile projectile = hit.gameObject.GetComponent<Projectile>(); // check if it's a projectile
+        if (projectile != null && projectile.HitsPlayer() && canBeHit) { // check if it hits the player
+            health -= projectile.GetDamage(); // deal damage
+            BattleManager.Instance.SetHealth(health); // change health bar image
             int piercing = projectile.GetPiercing();
-            switch (piercing) { // Check if the projectile is piercing
-                case -1: break; // If it has infinite pierce do nothing
-                case 0: Destroy(projectile.gameObject); break; // If it has 0 destroy the projectile
-                default: projectile.SetPiercing(piercing--); break; // Otherwise decrement by 1
+            switch (piercing) { // check if the projectile is piercing
+                case -1: break; // if it has infinite pierce do nothing
+                case 0: Destroy(projectile.gameObject); break; // if it has 0 destroy the projectile
+                default: projectile.SetPiercing(piercing--); break; // otherwise decrement by 1
             }
             if (health <= 0) {OnDie();}
             else {StartCoroutine(OnHit());}
@@ -94,6 +95,7 @@ public class Player : MonoBehaviour {
     public Item GetItem() {return item;}
     public GameObject GetSpawn() {return spawn;}
 
+    public void SetHealth(float hp) {health = hp;}
     public float GetHealth() {return health;}
     public Vector2 GetSpeed() {return speed;}
 }

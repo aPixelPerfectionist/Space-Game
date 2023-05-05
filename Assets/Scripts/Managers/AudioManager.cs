@@ -3,11 +3,26 @@ using System.Collections.Generic;
 
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour {
     public static AudioManager Instance {get; private set;}
-    [SerializeField] AudioSource audioBGM;
-    [SerializeField] AudioSource audioSFX;
+
+    [Header("Music")]
+        [SerializeField] AudioClip titleBGM;
+        [SerializeField] AudioClip mapBGM;
+        [SerializeField] AudioClip battleBGM;
+        [SerializeField] AudioClip eventBGM;
+        [SerializeField] AudioClip shopBGM;
+        [SerializeField] AudioClip bossBGM;
+        [SerializeField] AudioClip restartBGM;
+        [SerializeField] AudioClip creditsBGM;
+
+    [Header("Programming")]
+        [SerializeField] AudioSource audioBGM;
+        [SerializeField] AudioSource audioSFX;
+
+    List<AudioClip> playlist = new List<AudioClip>();
 
     private void Awake() { // ensure this is the only Instance
         if (Instance != null && Instance != this) {
@@ -16,7 +31,12 @@ public class AudioManager : MonoBehaviour {
         }
 
         Instance = this;
-        Reset();        
+        
+        // play new BGM on Scene Load
+        playlist = new List<AudioClip> {titleBGM, mapBGM, battleBGM, eventBGM, shopBGM, restartBGM, creditsBGM};
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
+        Reset();
     }
 
     void Reset() { // reset volume and unmute all
@@ -24,6 +44,11 @@ public class AudioManager : MonoBehaviour {
         audioSFX.mute = false;
         audioBGM.volume = 1;
         audioSFX.volume = 1;
+        ChangeClip(titleBGM);
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+        ChangeClip(playlist[scene.buildIndex]);
     }
 
     // change volume
