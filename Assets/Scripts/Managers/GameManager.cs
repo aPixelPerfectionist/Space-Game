@@ -6,12 +6,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviour {
     public static GameManager Instance {get; private set;}
 
-    private void Awake() { // ensure this is the only Instance
-        if (Instance != null && Instance != this) {
+    private void Awake() {
+        if (Instance != null && Instance != this) { // ensure this is the only Instance
             Destroy(this.gameObject);
             return;
         }
-
         Instance = this;
     }
 

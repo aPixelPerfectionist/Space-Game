@@ -18,7 +18,6 @@ public class Player : MonoBehaviour {
     [Header("Equipment")]
         [SerializeField] Weapon weapon;
         [SerializeField] Guard guard;
-        [SerializeField] Item item;
 
     [Header("Programming")]
         [SerializeField] GameObject spawn;
@@ -50,6 +49,7 @@ public class Player : MonoBehaviour {
         }
         else if (hit.gameObject.GetComponent<Enemy>() && canBeHit) {
             health--;
+            BattleManager.Instance.SetHealth(health); // change health bar image
             if (health <= 0) {OnDie();}
             else {StartCoroutine(OnHit());}
         }
@@ -92,7 +92,6 @@ public class Player : MonoBehaviour {
 
     public Weapon GetWeapon() {return weapon;}
     public Guard GetGuard() {return guard;}
-    public Item GetItem() {return item;}
     public GameObject GetSpawn() {return spawn;}
 
     public void SetHealth(float hp) {health = hp;}

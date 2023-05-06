@@ -24,12 +24,11 @@ public class AudioManager : MonoBehaviour {
 
     List<AudioClip> playlist = new List<AudioClip>();
 
-    private void Awake() { // ensure this is the only Instance
-        if (Instance != null && Instance != this) {
+    private void Awake() {
+        if (Instance != null && Instance != this) { // ensure this is the only Instance
             Destroy(this);
             return;
         }
-
         Instance = this;
         
         // play new BGM on Scene Load
@@ -44,11 +43,14 @@ public class AudioManager : MonoBehaviour {
         audioSFX.mute = false;
         audioBGM.volume = 1;
         audioSFX.volume = 1;
-        ChangeClip(titleBGM);
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
         ChangeClip(playlist[scene.buildIndex]);
+    }
+
+    void OnDisable() {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     // change volume
