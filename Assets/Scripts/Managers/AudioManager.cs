@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour {
 
     [Header("Music")]
         [SerializeField] AudioClip titleBGM;
+        [SerializeField] AudioClip introBGM;
         [SerializeField] AudioClip mapBGM;
         [SerializeField] AudioClip battleBGM;
         [SerializeField] AudioClip eventBGM;
@@ -32,7 +33,7 @@ public class AudioManager : MonoBehaviour {
         Instance = this;
         
         // play new BGM on Scene Load
-        playlist = new List<AudioClip> {titleBGM, mapBGM, battleBGM, eventBGM, shopBGM, restartBGM, creditsBGM};
+        playlist = new List<AudioClip> {titleBGM, introBGM, mapBGM, battleBGM, eventBGM, shopBGM, restartBGM, creditsBGM};
         SceneManager.sceneLoaded += OnSceneLoaded;
 
         Reset();
