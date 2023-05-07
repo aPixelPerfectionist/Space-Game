@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36a111c6d26555041809cca00bf4879b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldown: 5
-  duration: 2
+  cooldown: 2.5
+  duration: 1.5
   sfx: {fileID: 8300000, guid: ba5b9da8b3b9af742abfa0fd399e1a0f, type: 3}
