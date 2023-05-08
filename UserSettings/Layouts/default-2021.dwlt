@@ -14,12 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier:
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< Updated upstream
     x: 2249
     y: 302.5
     width: 1206
     height: 715
   m_ShowMode: 4
   m_Title:
+=======
+    x: 7.2000003
+    y: 50.4
+    width: 1521.6
+    height: 758.4
+  m_ShowMode: 4
+  m_Title: Project
+>>>>>>> Stashed changes
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -43,12 +52,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< Updated upstream
     width: 1206
     height: 665
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 119
+=======
+    width: 1521.6
+    height: 708.4
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 18
+>>>>>>> Stashed changes
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,10 +82,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< Updated upstream
     x: 921
     y: 0
     width: 285
     height: 665
+=======
+    x: 1157.6
+    y: 0
+    width: 364
+    height: 708.4
+>>>>>>> Stashed changes
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -92,8 +117,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 228
     height: 394
+=======
+    width: 274.4
+    height: 445.6
+>>>>>>> Stashed changes
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -117,16 +147,33 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< Updated upstream
     y: 394
     width: 921
     height: 271
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 12}
+=======
+    y: 445.6
+    width: 1157.6
+    height: 262.80002
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 14}
+>>>>>>> Stashed changes
   m_Panes:
   - {fileID: 12}
   - {fileID: 17}
+<<<<<<< Updated upstream
   m_Selected: 0
+=======
+  - {fileID: 15}
+  - {fileID: 14}
+  - {fileID: 22}
+  - {fileID: 13}
+  m_Selected: 2
+>>>>>>> Stashed changes
   m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
@@ -148,8 +195,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 1206
     height: 715
+=======
+    width: 1521.6
+    height: 758.4
+>>>>>>> Stashed changes
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -169,7 +221,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 1206
+=======
+    width: 1521.6
+>>>>>>> Stashed changes
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -191,8 +247,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< Updated upstream
     y: 695
     width: 1206
+=======
+    y: 738.4
+    width: 1521.6
+>>>>>>> Stashed changes
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -215,12 +276,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 921
     height: 665
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 92
+=======
+    width: 1157.6
+    height: 708.4
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 25
+>>>>>>> Stashed changes
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,12 +310,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
     width: 921
     height: 394
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 93
+=======
+    width: 1157.6
+    height: 445.6
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 76
+>>>>>>> Stashed changes
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,10 +340,17 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< Updated upstream
     x: 228
     y: 0
     width: 693
     height: 394
+=======
+    x: 274.4
+    y: 0
+    width: 883.19995
+    height: 445.6
+>>>>>>> Stashed changes
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -281,6 +367,2673 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< Updated upstream
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 281.6
+    y: 80.8
+    width: 881.19995
+    height: 426.2
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -3969772797935132689, guid: f492a6d3898946846a10c8672e985606, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: f492a6d3898946846a10c8672e985606, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -3969772797935132689, guid: f492a6d3898946846a10c8672e985606, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 0
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 7.2000003
+    y: 528
+    width: 1156.6
+    height: 240.20001
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -1546
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 7.2000003
+    y: 526.4
+    width: 1156.6
+    height: 241.80002
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Visual/GUI
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 53
+  m_LastFolders:
+  - Assets/Visual/GUI
+  m_LastFoldersGridSize: 53
+  m_LastProjectPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 146.19998}
+    m_SelectedIDs: c2620000
+    m_LastClickedID: 25282
+    m_ExpandedIDs: 00000000386000004a6000005060000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0000000038600000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: b65c000012600000128b0000086200000268000004710000965f000082c8ffffb2630000ca5c0000e85e00002463000000000000ca62000000630000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 5}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 72.19998}
+    m_GridSize: 53
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 200
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 7.2000003
+    y: 526.4
+    width: 1156.6
+    height: 241.80002
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scripts/Managers
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 71
+  m_LastFolders:
+  - Assets/Scripts/Managers
+  m_LastFoldersGridSize: 71
+  m_LastProjectPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 98.19998}
+    m_SelectedIDs: f0600000
+    m_LastClickedID: 24816
+    m_ExpandedIDs: 00000000386000004a6000004e60000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0000000038600000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: f6f9ffff
+    m_LastClickedInstanceID: -1546
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c05c0000b2630000a4650000aa650000ca5c00006c5e00000000000070610000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 5}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 71
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 200
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: GitHub
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1116.8
+    y: 80.8
+    width: 411
+    height: 687.4
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 2
+  activeTab: 2
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2023-02-08T20:52:15.108-05:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 0
+    disableCreate: 0
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 
+      cacheType: 0
+    currentBranch:
+      name: 
+      tracking: 
+    currentRemote:
+      name: 
+      url: 
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches: []
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: '[unknown]'
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries: []
+    changedFilesText: No changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+  historyView:
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
+    logEntries:
+    - commitID: e5d4367f85ecf083bd2cab40d058e8ec55250994
+      mergeA: 
+      mergeB: 
+      authorName: ebeckwith1
+      authorEmail: Beckwith.Amistad@gmail.com
+      commitEmail: Beckwith.Amistad@gmail.com
+      commitName: ebeckwith1
+      summary: Added Weapon and Item Classes
+      description: Started creating prefabs for weapons/items and also the ship.
+      timeString: 2023-02-20T19:13:12.000-05:00
+      commitTimeString: 2023-02-20T19:13:12.000-05:00
+      changes:
+      - path: Assets\Art\Backgrounds.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds.meta
+        projectPath: Assets\Art\Backgrounds.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Backgrounds\Title.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds\Title.png
+        projectPath: Assets\Art\Backgrounds\Title.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Backgrounds\Title.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds\Title.png.meta
+        projectPath: Assets\Art\Backgrounds\Title.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\GUI.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI.meta
+        projectPath: Assets\Art\GUI.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\GUI\HUD.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI\HUD.png
+        projectPath: Assets\Art\GUI\HUD.png
+        originalPath: Assets\Art\HUD.png
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Art\GUI\HUD.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI\HUD.png.meta
+        projectPath: Assets\Art\GUI\HUD.png.meta
+        originalPath: Assets\Art\HUD.png.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles.meta
+        projectPath: Assets\Art\Projectiles.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Beam.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Beam.png
+        projectPath: Assets\Art\Projectiles\Beam.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Beam.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Beam.png.meta
+        projectPath: Assets\Art\Projectiles\Beam.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Charge.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Charge.png
+        projectPath: Assets\Art\Projectiles\Charge.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Charge.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Charge.png.meta
+        projectPath: Assets\Art\Projectiles\Charge.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Missile.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Missile.png
+        projectPath: Assets\Art\Projectiles\Missile.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Missile.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Missile.png.meta
+        projectPath: Assets\Art\Projectiles\Missile.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Rocket.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Rocket.png
+        projectPath: Assets\Art\Projectiles\Rocket.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\Projectiles\Rocket.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Rocket.png.meta
+        projectPath: Assets\Art\Projectiles\Rocket.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Beam.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Beam.prefab
+        projectPath: Assets\Prefabs\Bullets\Beam.prefab
+        originalPath: Assets\Prefabs\Bullets\Bullet.prefab
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Beam.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Beam.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Beam.prefab.meta
+        originalPath: Assets\Prefabs\Bullets\Bullet.prefab.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Charge.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Charge.prefab
+        projectPath: Assets\Prefabs\Bullets\Charge.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Charge.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Charge.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Charge.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Missile.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Missile.prefab
+        projectPath: Assets\Prefabs\Bullets\Missile.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Missile.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Missile.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Missile.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Rocket.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Rocket.prefab
+        projectPath: Assets\Prefabs\Bullets\Rocket.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Rocket.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Rocket.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Rocket.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Items.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items.meta
+        projectPath: Assets\Prefabs\Items.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Items\Energy Shield.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items\Energy
+          Shield.prefab
+        projectPath: Assets\Prefabs\Items\Energy Shield.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Items\Energy Shield.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items\Energy
+          Shield.prefab.meta
+        projectPath: Assets\Prefabs\Items\Energy Shield.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Player.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Player.prefab
+        projectPath: Assets\Prefabs\Player.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Player.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Player.prefab.meta
+        projectPath: Assets\Prefabs\Player.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Weapons.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons.meta
+        projectPath: Assets\Prefabs\Weapons.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Weapons\Blaster.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons\Blaster.prefab
+        projectPath: Assets\Prefabs\Weapons\Blaster.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Weapons\Blaster.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons\Blaster.prefab.meta
+        projectPath: Assets\Prefabs\Weapons\Blaster.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Item.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Item.cs
+        projectPath: Assets\Scripts\Item.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Item.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Item.cs.meta
+        projectPath: Assets\Scripts\Item.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+        projectPath: Assets\Scripts\Player.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Weapon.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Weapon.cs
+        projectPath: Assets\Scripts\Weapon.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Weapon.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Weapon.cs.meta
+        projectPath: Assets\Scripts\Weapon.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 90fc3982c0251c1c3e9045bd364d58a036b700da
+      mergeA: 
+      mergeB: 
+      authorName: ebeckwith1
+      authorEmail: Beckwith.Amistad@gmail.com
+      commitEmail: Beckwith.Amistad@gmail.com
+      commitName: ebeckwith1
+      summary: Added Focus Mode, Improved Cooldowns
+      description: Added a focus mode (reduces movement speed for precision dodging,
+        could also change attack patterns but this hasn't been implemented yet).
+        Added CDs for attacking/dodging/using items and improved on what was already
+        there.
+      timeString: 2023-02-13T18:30:35.000-05:00
+      commitTimeString: 2023-02-13T18:30:35.000-05:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+        projectPath: Assets\Scripts\Control.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs.meta
+        projectPath: Assets\Scripts\Control.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+        projectPath: Assets\Scripts\Player.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: ba54ff014f60fb9012c6a9f3602971d7bb6f7bd0
+      mergeA: 
+      mergeB: 
+      authorName: ebeckwith1
+      authorEmail: Beckwith.Amistad@gmail.com
+      commitEmail: Beckwith.Amistad@gmail.com
+      commitName: ebeckwith1
+      summary: You can Shoot now
+      description: The bullets don't do anything though
+      timeString: 2023-02-10T21:26:12.000-05:00
+      commitTimeString: 2023-02-10T21:26:12.000-05:00
+      changes:
+      - path: Assets\Prefabs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs.meta
+        projectPath: Assets\Prefabs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets.meta
+        projectPath: Assets\Prefabs\Bullets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Bullet.prefab
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Bullet.prefab
+        projectPath: Assets\Prefabs\Bullets\Bullet.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Bullets\Bullet.prefab.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Bullet.prefab.meta
+        projectPath: Assets\Prefabs\Bullets\Bullet.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+        projectPath: Assets\Scripts\Control.cs
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+        projectPath: Assets\Scripts\Player.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs.meta
+        projectPath: Assets\Scripts\Player.cs.meta
+        originalPath: Assets\Scripts\Control.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: b04b13193df2439e1f6c14fbdf116a30b2a9aa11
+      mergeA: 
+      mergeB: 
+      authorName: ebeckwith1
+      authorEmail: Beckwith.Amistad@gmail.com
+      commitEmail: Beckwith.Amistad@gmail.com
+      commitName: ebeckwith1
+      summary: Added Basic Movement Script
+      description: 
+      timeString: 2023-02-09T22:03:18.000-05:00
+      commitTimeString: 2023-02-09T22:03:18.000-05:00
+      changes:
+      - path: Assets\Art.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art.meta
+        projectPath: Assets\Art.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\HUD.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\HUD.png
+        projectPath: Assets\Art\HUD.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Art\HUD.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\HUD.png.meta
+        projectPath: Assets\Art\HUD.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins.meta
+        projectPath: Assets\Plugins.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub.meta
+        projectPath: Assets\Plugins\GitHub.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor.meta
+        projectPath: Assets\Plugins\GitHub\Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+        projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+        projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+        projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+        projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+        projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+        projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+        projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\System.Threading.dll
+        projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+        projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+        projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+        projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+        projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\credits.txt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\credits.txt
+        projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\credits.txt.meta
+        projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\eula.txt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\eula.txt
+        projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\eula.txt.meta
+        projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\libsfw.bundle
+        projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+        projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.so
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\libsfw.so
+        projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+        projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\sfw.net.dll
+        projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+        projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+        projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+        projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+        projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+        projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control.cs
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+        projectPath: Assets\Scripts\Control.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Control.cs.meta
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs.meta
+        projectPath: Assets\Scripts\Control.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NetworkManager.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\NetworkManager.asset
+        projectPath: ProjectSettings\NetworkManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\SceneTemplateSettings.json
+        projectPath: ProjectSettings\SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\boot.config
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\boot.config
+        projectPath: ProjectSettings\boot.config
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.index
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Search.index
+        projectPath: UserSettings\Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 6093fda30b559e47085b7ef62d3b23de366b7998
+      mergeA: 
+      mergeB: 
+      authorName: aPixelPerfectionist
+      authorEmail: 124847750+aPixelPerfectionist@users.noreply.github.com
+      commitEmail: noreply@github.com
+      commitName: GitHub
+      summary: Create README.md
+      description: 
+      timeString: 2023-02-08T21:13:32.000-05:00
+      commitTimeString: 2023-02-08T21:13:32.000-05:00
+      changes:
+      - path: README.md
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\README.md
+        projectPath: README.md
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 87c4f5c25f426770571dc80df91ac34b58053478
+      mergeA: 
+      mergeB: 
+      authorName: ebeckwith1
+      authorEmail: ebeckwith1@gaels.iona.edu
+      commitEmail: ebeckwith1@gaels.iona.edu
+      commitName: ebeckwith1
+      summary: Initial commit
+      description: 
+      timeString: 2023-02-08T20:52:18.000-05:00
+      commitTimeString: 2023-02-08T20:52:18.000-05:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2023-05-07T00:11:02.221-04:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: e5d4367f85ecf083bd2cab40d058e8ec55250994
+        mergeA: 
+        mergeB: 
+        authorName: ebeckwith1
+        authorEmail: Beckwith.Amistad@gmail.com
+        commitEmail: Beckwith.Amistad@gmail.com
+        commitName: ebeckwith1
+        summary: Added Weapon and Item Classes
+        description: Started creating prefabs for weapons/items and also the ship.
+        timeString: 2023-02-20T19:13:12.000-05:00
+        commitTimeString: 2023-02-20T19:13:12.000-05:00
+        changes:
+        - path: Assets\Art\Backgrounds.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds.meta
+          projectPath: Assets\Art\Backgrounds.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Backgrounds\Title.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds\Title.png
+          projectPath: Assets\Art\Backgrounds\Title.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Backgrounds\Title.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Backgrounds\Title.png.meta
+          projectPath: Assets\Art\Backgrounds\Title.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\GUI.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI.meta
+          projectPath: Assets\Art\GUI.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\GUI\HUD.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI\HUD.png
+          projectPath: Assets\Art\GUI\HUD.png
+          originalPath: Assets\Art\HUD.png
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Art\GUI\HUD.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\GUI\HUD.png.meta
+          projectPath: Assets\Art\GUI\HUD.png.meta
+          originalPath: Assets\Art\HUD.png.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles.meta
+          projectPath: Assets\Art\Projectiles.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Beam.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Beam.png
+          projectPath: Assets\Art\Projectiles\Beam.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Beam.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Beam.png.meta
+          projectPath: Assets\Art\Projectiles\Beam.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Charge.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Charge.png
+          projectPath: Assets\Art\Projectiles\Charge.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Charge.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Charge.png.meta
+          projectPath: Assets\Art\Projectiles\Charge.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Missile.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Missile.png
+          projectPath: Assets\Art\Projectiles\Missile.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Missile.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Missile.png.meta
+          projectPath: Assets\Art\Projectiles\Missile.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Rocket.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Rocket.png
+          projectPath: Assets\Art\Projectiles\Rocket.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\Projectiles\Rocket.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\Projectiles\Rocket.png.meta
+          projectPath: Assets\Art\Projectiles\Rocket.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Beam.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Beam.prefab
+          projectPath: Assets\Prefabs\Bullets\Beam.prefab
+          originalPath: Assets\Prefabs\Bullets\Bullet.prefab
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Beam.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Beam.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Beam.prefab.meta
+          originalPath: Assets\Prefabs\Bullets\Bullet.prefab.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Charge.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Charge.prefab
+          projectPath: Assets\Prefabs\Bullets\Charge.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Charge.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Charge.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Charge.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Missile.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Missile.prefab
+          projectPath: Assets\Prefabs\Bullets\Missile.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Missile.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Missile.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Missile.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Rocket.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Rocket.prefab
+          projectPath: Assets\Prefabs\Bullets\Rocket.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Rocket.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Rocket.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Rocket.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Items.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items.meta
+          projectPath: Assets\Prefabs\Items.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Items\Energy Shield.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items\Energy
+            Shield.prefab
+          projectPath: Assets\Prefabs\Items\Energy Shield.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Items\Energy Shield.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Items\Energy
+            Shield.prefab.meta
+          projectPath: Assets\Prefabs\Items\Energy Shield.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Player.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Player.prefab
+          projectPath: Assets\Prefabs\Player.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Player.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Player.prefab.meta
+          projectPath: Assets\Prefabs\Player.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Weapons.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons.meta
+          projectPath: Assets\Prefabs\Weapons.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Weapons\Blaster.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons\Blaster.prefab
+          projectPath: Assets\Prefabs\Weapons\Blaster.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Weapons\Blaster.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Weapons\Blaster.prefab.meta
+          projectPath: Assets\Prefabs\Weapons\Blaster.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Item.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Item.cs
+          projectPath: Assets\Scripts\Item.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Item.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Item.cs.meta
+          projectPath: Assets\Scripts\Item.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+          projectPath: Assets\Scripts\Player.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Weapon.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Weapon.cs
+          projectPath: Assets\Scripts\Weapon.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Weapon.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Weapon.cs.meta
+          projectPath: Assets\Scripts\Weapon.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 90fc3982c0251c1c3e9045bd364d58a036b700da
+        mergeA: 
+        mergeB: 
+        authorName: ebeckwith1
+        authorEmail: Beckwith.Amistad@gmail.com
+        commitEmail: Beckwith.Amistad@gmail.com
+        commitName: ebeckwith1
+        summary: Added Focus Mode, Improved Cooldowns
+        description: Added a focus mode (reduces movement speed for precision dodging,
+          could also change attack patterns but this hasn't been implemented yet).
+          Added CDs for attacking/dodging/using items and improved on what was already
+          there.
+        timeString: 2023-02-13T18:30:35.000-05:00
+        commitTimeString: 2023-02-13T18:30:35.000-05:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+          projectPath: Assets\Scripts\Control.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs.meta
+          projectPath: Assets\Scripts\Control.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+          projectPath: Assets\Scripts\Player.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: ba54ff014f60fb9012c6a9f3602971d7bb6f7bd0
+        mergeA: 
+        mergeB: 
+        authorName: ebeckwith1
+        authorEmail: Beckwith.Amistad@gmail.com
+        commitEmail: Beckwith.Amistad@gmail.com
+        commitName: ebeckwith1
+        summary: You can Shoot now
+        description: The bullets don't do anything though
+        timeString: 2023-02-10T21:26:12.000-05:00
+        commitTimeString: 2023-02-10T21:26:12.000-05:00
+        changes:
+        - path: Assets\Prefabs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs.meta
+          projectPath: Assets\Prefabs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets.meta
+          projectPath: Assets\Prefabs\Bullets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Bullet.prefab
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Bullet.prefab
+          projectPath: Assets\Prefabs\Bullets\Bullet.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Bullets\Bullet.prefab.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Prefabs\Bullets\Bullet.prefab.meta
+          projectPath: Assets\Prefabs\Bullets\Bullet.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+          projectPath: Assets\Scripts\Control.cs
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs
+          projectPath: Assets\Scripts\Player.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Player.cs.meta
+          projectPath: Assets\Scripts\Player.cs.meta
+          originalPath: Assets\Scripts\Control.cs.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: b04b13193df2439e1f6c14fbdf116a30b2a9aa11
+        mergeA: 
+        mergeB: 
+        authorName: ebeckwith1
+        authorEmail: Beckwith.Amistad@gmail.com
+        commitEmail: Beckwith.Amistad@gmail.com
+        commitName: ebeckwith1
+        summary: Added Basic Movement Script
+        description: 
+        timeString: 2023-02-09T22:03:18.000-05:00
+        commitTimeString: 2023-02-09T22:03:18.000-05:00
+        changes:
+        - path: Assets\Art.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art.meta
+          projectPath: Assets\Art.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\HUD.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\HUD.png
+          projectPath: Assets\Art\HUD.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Art\HUD.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Art\HUD.png.meta
+          projectPath: Assets\Art\HUD.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins.meta
+          projectPath: Assets\Plugins.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub.meta
+          projectPath: Assets\Plugins\GitHub.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor.meta
+          projectPath: Assets\Plugins\GitHub\Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+          projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\System.Threading.dll
+          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+          projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+          projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\credits.txt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\credits.txt
+          projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\credits.txt.meta
+          projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\eula.txt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\eula.txt
+          projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\eula.txt.meta
+          projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\libsfw.bundle
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.so
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\libsfw.so
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\sfw.net.dll
+          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control.cs
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs
+          projectPath: Assets\Scripts\Control.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Control.cs.meta
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\Scripts\Control.cs.meta
+          projectPath: Assets\Scripts\Control.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NetworkManager.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\NetworkManager.asset
+          projectPath: ProjectSettings\NetworkManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\boot.config
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\ProjectSettings\boot.config
+          projectPath: ProjectSettings\boot.config
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.index
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Search.index
+          projectPath: UserSettings\Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 6093fda30b559e47085b7ef62d3b23de366b7998
+        mergeA: 
+        mergeB: 
+        authorName: aPixelPerfectionist
+        authorEmail: 124847750+aPixelPerfectionist@users.noreply.github.com
+        commitEmail: noreply@github.com
+        commitName: GitHub
+        summary: Create README.md
+        description: 
+        timeString: 2023-02-08T21:13:32.000-05:00
+        commitTimeString: 2023-02-08T21:13:32.000-05:00
+        changes:
+        - path: README.md
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\README.md
+          projectPath: README.md
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 87c4f5c25f426770571dc80df91ac34b58053478
+        mergeA: 
+        mergeB: 
+        authorName: ebeckwith1
+        authorEmail: ebeckwith1@gaels.iona.edu
+        commitEmail: ebeckwith1@gaels.iona.edu
+        commitName: ebeckwith1
+        summary: Initial commit
+        description: 
+        timeString: 2023-02-08T20:52:18.000-05:00
+        commitTimeString: 2023-02-08T20:52:18.000-05:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: 
+      gitLfsPath: 
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 0
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    metricsEnabled: 0
+    newRepositoryRemoteUrl: 
+    repositoryRemoteName: 
+    repositoryRemoteUrl: 
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 
+        cacheType: 0
+    webTimeout: 0
+    gitTimeout: 0
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/aPixelPerfectionist/Space-Game.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/aPixelPerfectionist/Space-Game.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2023-02-20T19:27:51.032-05:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2023-02-20T19:27:50.944-05:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2023-02-20T19:27:52.689-05:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
+  connections: []
+  primaryConnectionUsername: 
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+>>>>>>> Stashed changes
   m_EditorHideFlags: 1
   m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
   m_Name:
@@ -289,6 +3042,7 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
+<<<<<<< Updated upstream
     m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip:
   m_Pos:
@@ -297,6 +3051,16 @@ MonoBehaviour:
     y: 726.5
     width: 920
     height: 250
+=======
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 7.2000003
+    y: 526.4
+    width: 1156.6
+    height: 241.80002
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter:
@@ -311,18 +3075,29 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
     - Assets
+=======
+    - Assets/Scenes
+>>>>>>> Stashed changes
     m_Globs: []
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< Updated upstream
   - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: U:\layout
+=======
+  - Assets/Scenes
+  m_LastFoldersGridSize: 96
+  m_LastProjectPath: C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game
+>>>>>>> Stashed changes
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_SelectedIDs: f4350000
     m_LastClickedID: 13812
     m_ExpandedIDs: 00000000f435000000ca9a3b
@@ -330,6 +3105,43 @@ MonoBehaviour:
       m_UserAcceptedRename: 0
       m_Name:
       m_OriginalName:
+=======
+    m_SelectedIDs: 4c600000
+    m_LastClickedID: 24652
+    m_ExpandedIDs: 000000003860000000ca9a3bffffff7f
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 5}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 0000000038600000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+>>>>>>> Stashed changes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -348,12 +3160,21 @@ MonoBehaviour:
       m_InstanceID: 0
       m_Path:
       m_Icon: {fileID: 0}
+<<<<<<< Updated upstream
       m_ResourceFile:
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
     m_LastClickedID: 0
     m_ExpandedIDs: 00000000f4350000
+=======
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: f6f9ffff
+    m_LastClickedInstanceID: -1546
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000368b0000222400003a720000ca5f0000b65c000012600000b85c0000ba5c0000ce5c000076780000ca5c000000000000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name:
@@ -425,6 +3246,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
+<<<<<<< Updated upstream
     m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip:
   m_Pos:
@@ -433,6 +3255,16 @@ MonoBehaviour:
     y: 332.5
     width: 284
     height: 644
+=======
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1164.8
+    y: 80.8
+    width: 363
+    height: 687.4
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization:
@@ -463,6 +3295,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
+<<<<<<< Updated upstream
     m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip:
   m_Pos:
@@ -471,13 +3304,27 @@ MonoBehaviour:
     y: 332.5
     width: 227
     height: 373
+=======
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 7.2000003
+    y: 80.8
+    width: 273.4
+    height: 424.6
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
       m_LastClickedID: 0
+<<<<<<< Updated upstream
       m_ExpandedIDs: 42fbffff
+=======
+      m_ExpandedIDs: 2cfbffff
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name:
@@ -517,6 +3364,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
+<<<<<<< Updated upstream
     m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip:
   m_Pos:
@@ -527,6 +3375,262 @@ MonoBehaviour:
     height: 373
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
+=======
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 281.6
+    y: 80.8
+    width: 881.19995
+    height: 424.6
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -100, y: -25.600006}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: -224.6}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 24.8}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 24.8}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 197}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-component-tools
+      index: 1
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 24.8}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap
+      index: 11
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Palette Helper
+      index: 12
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Open Tile Palette
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Tilemap Focus
+      index: 3
+      layout: 4
+>>>>>>> Stashed changes
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
@@ -537,9 +3641,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
+=======
+    m_Target: {x: 784.8301, y: 693.4122, z: 13.44287}
+    speed: 2
+    m_Value: {x: 784.8301, y: 693.4122, z: 13.44287}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -589,9 +3699,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
+<<<<<<< Updated upstream
     m_Target: 10
     speed: 2
     m_Value: 10
+=======
+    m_Target: 532.05615
+    speed: 2
+    m_Value: 532.05615
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -632,6 +3748,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
+<<<<<<< Updated upstream
     m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip:
   m_Pos:
@@ -640,6 +3757,16 @@ MonoBehaviour:
     y: 94
     width: 1532
     height: 790
+=======
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 281.6
+    y: 80.8
+    width: 881.19995
+    height: 424.6
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -662,10 +3789,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< Updated upstream
     m_HBaseRangeMin: -766
     m_HBaseRangeMax: 766
     m_VBaseRangeMin: -395
     m_VBaseRangeMax: 395
+=======
+    m_HBaseRangeMin: -768
+    m_HBaseRangeMax: 768
+    m_VBaseRangeMin: -432
+    m_VBaseRangeMax: 432
+>>>>>>> Stashed changes
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -682,17 +3816,26 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< Updated upstream
       y: 0
       width: 1532
       height: 790
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 766, y: 395}
+=======
+      y: 21
+      width: 881.19995
+      height: 403.6
+    m_Scale: {x: 0.46712965, y: 0.46712965}
+    m_Translation: {x: 440.59998, y: 201.8}
+>>>>>>> Stashed changes
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< Updated upstream
       x: -766
       y: -395
       width: 1532
@@ -700,6 +3843,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1532, y: 790}
+=======
+      x: -943.20703
+      y: -432
+      width: 1886.4141
+      height: 864
+    m_MinimalGUI: 1
+  m_defaultScale: 0.46712965
+  m_LastWindowPixelSize: {x: 1101.5, y: 530.75}
+>>>>>>> Stashed changes
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -721,8 +3873,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
+<<<<<<< Updated upstream
     m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip:
+=======
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+>>>>>>> Stashed changes
   m_Pos:
     serializedVersion: 2
     x: 2249
