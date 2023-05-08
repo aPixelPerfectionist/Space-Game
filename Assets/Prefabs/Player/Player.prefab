@@ -258,6 +258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fire
       objectReference: {fileID: 0}
+    - target: {fileID: 3519697829643283225, guid: 9b40d217917c6ad4fbe7121b2798c049, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7656042803434156435, guid: 9b40d217917c6ad4fbe7121b2798c049, type: 3}
       propertyPath: m_RootOrder
       value: 1
