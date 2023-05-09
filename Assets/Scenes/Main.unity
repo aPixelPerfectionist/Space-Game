@@ -478,8 +478,7 @@ MonoBehaviour:
   m_text: Exit Game
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
-  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5,
-    type: 2}
+  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -614,8 +613,7 @@ MonoBehaviour:
   m_text: Start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
-  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5,
-    type: 2}
+  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1565,8 +1563,7 @@ MonoBehaviour:
   m_text: Are you sure you want to quit?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
-  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5,
-    type: 2}
+  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2692,8 +2689,7 @@ MonoBehaviour:
   m_text: Yes
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
-  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5,
-    type: 2}
+  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3203,8 +3199,7 @@ MonoBehaviour:
   m_text: No
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
-  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5,
-    type: 2}
+  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3838,8 +3833,7 @@ MonoBehaviour:
   m_text: Back
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
-  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5,
-    type: 2}
+  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4245,8 +4239,7 @@ MonoBehaviour:
   m_text: Settings
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
-  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5,
-    type: 2}
+  m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4944,7 +4937,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 640, y: 320}
+  m_SizeDelta: {x: 640, y: 360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2047642163
 MonoBehaviour:
@@ -4968,7 +4961,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: c3e0164a4c701b14a9bfde83d84ad710, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -5053,10 +5046,11 @@ MonoBehaviour:
   shipBase: {fileID: -72718841, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
   shipPhase: {fileID: -91889684, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
   shipWhite: {fileID: 1225021086, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
-  neutral: {fileID: 0}
-  happy: {fileID: 0}
-  confused: {fileID: 0}
-  phasing: {fileID: 0}
+  faceNeutral: {fileID: 0}
+  faceBase: {fileID: 0}
+  faceHappy: {fileID: 0}
+  faceConfused: {fileID: 0}
+  faceGlowing: {fileID: 0}
   disconnected: []
 --- !u!4 &2099835421
 Transform:

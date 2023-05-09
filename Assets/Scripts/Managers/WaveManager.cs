@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class WaveManager : MonoBehaviour {
     [SerializeField] float delay = 3f;
     [SerializeField] List<Wave> enemies = new List<Wave>();
+    [SerializeField] GameObject panel;
 
     void Awake() {
         StartCoroutine(Spawn(enemies));
@@ -19,6 +20,8 @@ public class WaveManager : MonoBehaviour {
             yield return new WaitForSeconds(wave.GetDuration());
         }
         yield return new WaitForSeconds(15f);
-        SceneManager.LoadScene("Map");
+
+        GameManager.Instance.Pause();
+        panel.SetActive(true);
     }
 }
