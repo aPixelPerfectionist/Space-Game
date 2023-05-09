@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
     public static GameManager Instance {get; private set;}
+
     int credits;
     int stage;
 
@@ -22,14 +23,22 @@ public class GameManager : MonoBehaviour {
     }
 
     public int GetCredits() {return credits;}
-    public void SetCredits(int i) {credits = i;}
-
+    public void SetCredits(int i) {
+        credits = i;
+        if (BattleManager.Instance != null) {BattleManager.Instance.SetCredits(credits);}
+    }
     public void AddCredits(int i) {
         credits += i;
-        BattleManager.Instance.SetCredits(credits);
+        if (BattleManager.Instance != null) {BattleManager.Instance.SetCredits(credits);}
     }
 
     public int GetStage() {return stage;}
     public void SetStage(int i) {stage = i;}
     public void IncStage(int i) {stage += i;}
+
+    public void Reset() {
+        Time.timeScale = 1f;
+        credits = 0;
+        stage = 0;
+    }
 }

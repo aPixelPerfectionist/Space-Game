@@ -7,14 +7,15 @@ using UnityEngine.UI;
 using TMPro;
 
 public class EventManager : MonoBehaviour {
-    [SerializeField] TextMeshProUGUI nameText;
-    [SerializeField] TextMeshProUGUI descText;
-    [SerializeField] TextMeshProUGUI bodyText;
-    [SerializeField] TextMeshProUGUI outText;
-    [SerializeField] Image imgEvent;
-
-    [SerializeField] List<Event> events = new List<Event>();
-    [SerializeField] List<Button> buttons = new List<Button>();
+    [Header("General")]
+        [SerializeField] List<Event> events = new List<Event>();
+    [Header("Programming")]
+        [SerializeField] TextMeshProUGUI nameText;
+        [SerializeField] TextMeshProUGUI descText;
+        [SerializeField] TextMeshProUGUI bodyText;
+        [SerializeField] TextMeshProUGUI outText;
+        [SerializeField] Image imgEvent;
+        [SerializeField] List<Button> buttons = new List<Button>();
 
     List<Outcome> outcomes = new List<Outcome>();
 
@@ -26,12 +27,17 @@ public class EventManager : MonoBehaviour {
 
         outcomes = events[0].GetOutcomes();
         for (int i = 0; i < 3; i++) {
-            if (outcomes[i] != null) {buttons[i].GetComponentInChildren<TextMeshProUGUI>().text = outcomes[i].GetName();}
+            if (outcomes[i] != null) {
+                int x = i;
+                buttons[i].GetComponentInChildren<TextMeshProUGUI>().text = outcomes[i].GetName();
+                buttons[i].onClick.AddListener(delegate {OnClick(x);} );
+            }
             else {buttons[i].gameObject.SetActive(false);}
         } 
     }
 
-    public void OnClick() {
-        //
+    public void OnClick(int i) {
+        imgEvent.sprite = outcomes[i].GetSprite();
+        outText.text = outcomes[i].GetDesc();
     }
 }
