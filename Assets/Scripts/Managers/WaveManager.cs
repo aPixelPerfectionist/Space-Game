@@ -2,16 +2,27 @@ using System.Collections;
 using System.Collections.Generic;
 
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class WaveManager : MonoBehaviour {
-    [SerializeField] int waves = 5;
+using TMPro;
 
-    [SerializeField] List<Wave> enemies = new List<Wave>();
-    [SerializeField] List<Enemy> bosses = new List<Enemy>();
-    [SerializeField] GameObject panel;
+public class WaveManager : MonoBehaviour {
+    [Header("General")]
+        [SerializeField] int waves = 5;
+        [SerializeField] List<Wave> enemies = new List<Wave>();
+        [SerializeField] List<Enemy> bosses = new List<Enemy>();
+
+    [Header("Rewards")]
+        [SerializeField] List<Upgrade> upgrades = new List<Upgrade>();
+        List<Upgrade> rewards = new List<Upgrade>();
+
+    [Header("Programming")]
+        [SerializeField] List<Button> buttons = new List<Button>();
+        [SerializeField] GameObject panel;
 
     void Awake() {
+        GameManager.Instance.AddCredits(0);
         if (!BattleManager.Instance.GetIsBoss()) { // spawn waves
             BattleManager.Instance.GetBackground().GetComponentInChildren<Scroll>().enabled = true;
             List<Wave> wave = enemies;
@@ -22,7 +33,6 @@ public class WaveManager : MonoBehaviour {
             int r = Random.Range(0, bosses.Count-1);
             Instantiate<GameObject>(bosses[r].gameObject, gameObject.transform);
         }
-        
     }
 
     IEnumerator Spawn(List<Wave> wave) {
@@ -36,10 +46,25 @@ public class WaveManager : MonoBehaviour {
         }
 
         yield return new WaitForSeconds(5f); // delay
+        OnWin();
+        
+    }
 
-        // end level
+    void OnWin() {
         GameManager.Instance.Pause();
         BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceHappy();
         panel.SetActive(true);
+
+        rewards = upgrades;
+        for (int i = 0; i < 2; i++) { // add Listeners and assign variables
+            int x = i;
+            buttons[i].onClick.AddListener(delegate {OnClick(x);} );
+            buttons[i].GetComponent<Stock>().SetLabel(rewards[i].GetName());
+            buttons[i].GetComponent<Stock>().SetImage(rewards[i].GetImage());
+        }
+    }
+
+    public void OnClick(int i) {
+        //
     }
 }

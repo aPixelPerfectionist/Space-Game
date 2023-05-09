@@ -2328,7 +2328,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Name
+  m_text: Imani
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
   m_sharedMaterial: {fileID: 5599265947794328230, guid: 71cf454cca51066488532725fd8fa6e5, type: 2}
@@ -2571,6 +2571,12 @@ MonoBehaviour:
   - {fileID: 7546092844329703488, guid: f6678dd5fe3194f498980cfd9940e5da, type: 3}
   bosses:
   - {fileID: 2452779879537128193, guid: 3de73e1d3da6343428674997e1023704, type: 3}
+  upgrades:
+  - {fileID: 6660366985166254703, guid: 2cb4a5d08d7f9fb41bbf1d75fe2c4a41, type: 3}
+  - {fileID: 6660366985166254703, guid: 46f467e8a6ca4cb498a63e4070dcf987, type: 3}
+  buttons:
+  - {fileID: 1990837268}
+  - {fileID: 2120735289}
   panel: {fileID: 516486519}
 --- !u!4 &1619859401
 Transform:
@@ -2840,6 +2846,7 @@ GameObject:
   - component: {fileID: 1990837267}
   - component: {fileID: 1990837266}
   - component: {fileID: 1990837268}
+  - component: {fileID: 1990837269}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2975,6 +2982,21 @@ MonoBehaviour:
           m_StringArgument: Map
           m_BoolArgument: 0
         m_CallState: 1
+--- !u!114 &1990837269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990837264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecc516cb42b0f54f9a5fa84d80f97d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 215090228}
+  price: {fileID: 0}
+  image: {fileID: 1254040461}
 --- !u!1 &2000070042
 GameObject:
   m_ObjectHideFlags: 0
@@ -3246,6 +3268,7 @@ GameObject:
   - component: {fileID: 2120735291}
   - component: {fileID: 2120735290}
   - component: {fileID: 2120735289}
+  - component: {fileID: 2120735292}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -3381,6 +3404,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120735287}
   m_CullTransparentMesh: 1
+--- !u!114 &2120735292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120735287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecc516cb42b0f54f9a5fa84d80f97d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 15415289}
+  price: {fileID: 0}
+  image: {fileID: 1466106247}
 --- !u!1 &2129990130
 GameObject:
   m_ObjectHideFlags: 0
