@@ -22,6 +22,7 @@ public class WaveManager : MonoBehaviour {
         yield return new WaitForSeconds(15f);
 
         GameManager.Instance.Pause();
+        BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceHappy();
         panel.SetActive(true);
     }
 }

@@ -33,7 +33,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -70,9 +70,9 @@ ScriptedImporter:
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
     fileImportMode: 1
-    importHiddenLayers: 0
-    layerImportMode: 1
-    defaultPivotSpace: 0
+    importHiddenLayers: 1
+    layerImportMode: 0
+    defaultPivotSpace: 1
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
@@ -82,9 +82,9 @@ ScriptedImporter:
     addShadowCasters: 0
   asepriteImporterSettings:
     fileImportMode: 1
-    importHiddenLayers: 0
-    layerImportMode: 1
-    defaultPivotSpace: 0
+    importHiddenLayers: 1
+    layerImportMode: 0
+    defaultPivotSpace: 1
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
     spritePadding: 0
@@ -93,7 +93,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638191807911585737
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -117,10 +117,10 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: ITZ_space_animations-Sheet_Frame_0
+  - name: Sprite Sheet_Frame_0
     originalName: 
-    pivot: {x: 0.46551725, y: -0.1923077}
-    alignment: 9
+    pivot: {x: 1, y: 1}
+    alignment: 3
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -128,7 +128,7 @@ ScriptedImporter:
       y: 140
       width: 58
       height: 26
-    spriteID: 293e4d0655ec8a347b94c1f87b968b66
+    spriteID: 84883da0e566b7646b2eacb1045c2266
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -137,10 +137,10 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: -1, y: 135}
-  - name: ITZ_space_animations-Sheet_Frame_1
+  - name: Sprite Sheet_Frame_1
     originalName: 
-    pivot: {x: 0.47457626, y: -0.1923077}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -148,7 +148,7 @@ ScriptedImporter:
       y: 106
       width: 59
       height: 26
-    spriteID: f149b2cb2d77dd04091e4e709511a4d6
+    spriteID: c399704998ea41b4287fab3c6b273d99
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -157,10 +157,10 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 101}
-  - name: ITZ_space_animations-Sheet_Frame_2
+  - name: Sprite Sheet_Frame_2
     originalName: 
-    pivot: {x: 0.49180326, y: -0.1923077}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -168,7 +168,7 @@ ScriptedImporter:
       y: 72
       width: 61
       height: 26
-    spriteID: 1d82b5f90f37162488de676ee159f532
+    spriteID: c8eaa4fcccf93ac40815552a7682da32
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -177,10 +177,10 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 2, y: 67}
-  - name: ITZ_space_animations-Sheet_Frame_3
+  - name: Sprite Sheet_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: -0.1923077}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -188,7 +188,7 @@ ScriptedImporter:
       y: 38
       width: 62
       height: 26
-    spriteID: a26892f2cbfd2504cbe954aa4d224463
+    spriteID: 892f66ec5f1764e499f50e7a2c105310
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -197,10 +197,10 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 3, y: 33}
-  - name: ITZ_space_animations-Sheet_Frame_4
+  - name: Sprite Sheet_Frame_4
     originalName: 
-    pivot: {x: 0.50793654, y: -0.1923077}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -208,7 +208,7 @@ ScriptedImporter:
       y: 4
       width: 63
       height: 26
-    spriteID: 91cc1bde61185dc40b7bd31584f5f0b9
+    spriteID: 78ffe890a747d494a8e4b090db84c503
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,55 +220,88 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -591517042
-    name: ITZ_space_animations-Sheet
-    layerFlags: 0
+    guid: -2007746156
+    name: Sprite Sheet
+    layerFlags: 3
     layerType: 0
     blendMode: 0
     cells:
-    - name: ITZ_space_animations-Sheet_Frame_0
+    - name: Sprite Sheet_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 64
         height: 32
-      spriteId: 293e4d0655ec8a347b94c1f87b968b66
-    - name: ITZ_space_animations-Sheet_Frame_1
+      spriteId: 84883da0e566b7646b2eacb1045c2266
+    - name: Sprite Sheet_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
         y: 0
         width: 64
         height: 32
-      spriteId: f149b2cb2d77dd04091e4e709511a4d6
-    - name: ITZ_space_animations-Sheet_Frame_2
+      spriteId: c399704998ea41b4287fab3c6b273d99
+    - name: Sprite Sheet_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
         y: 0
         width: 64
         height: 32
-      spriteId: 1d82b5f90f37162488de676ee159f532
-    - name: ITZ_space_animations-Sheet_Frame_3
+      spriteId: c8eaa4fcccf93ac40815552a7682da32
+    - name: Sprite Sheet_Frame_3
       frameIndex: 3
       cellRect:
         x: 0
         y: 0
         width: 64
         height: 32
-      spriteId: a26892f2cbfd2504cbe954aa4d224463
-    - name: ITZ_space_animations-Sheet_Frame_4
+      spriteId: 892f66ec5f1764e499f50e7a2c105310
+    - name: Sprite Sheet_Frame_4
       frameIndex: 4
       cellRect:
         x: 0
         y: 0
         width: 64
         height: 32
-      spriteId: 91cc1bde61185dc40b7bd31584f5f0b9
+      spriteId: 78ffe890a747d494a8e4b090db84c503
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 64, y: 32}

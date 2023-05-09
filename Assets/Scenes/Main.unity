@@ -5046,12 +5046,15 @@ MonoBehaviour:
   shipBase: {fileID: -72718841, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
   shipPhase: {fileID: -91889684, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
   shipWhite: {fileID: 1225021086, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
-  faceNeutral: {fileID: 0}
-  faceBase: {fileID: 0}
-  faceHappy: {fileID: 0}
-  faceConfused: {fileID: 0}
-  faceGlowing: {fileID: 0}
-  disconnected: []
+  faceNeutral: {fileID: -1823717769, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
+  faceBase: {fileID: 2019151270, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
+  faceHappy: {fileID: -1655615160, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
+  faceConfused: {fileID: -1318430976, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
+  faceSurprised: {fileID: -215996013, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
+  faceGlowing: {fileID: 1172952530, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
+  disconnected:
+  - {fileID: 1593861005, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
+  - {fileID: 1774340520, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
 --- !u!4 &2099835421
 Transform:
   m_ObjectHideFlags: 0
@@ -5354,7 +5357,7 @@ AudioSource:
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -5470,7 +5473,7 @@ AudioSource:
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128

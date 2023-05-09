@@ -39,7 +39,7 @@ public class BattleManager : MonoBehaviour {
         Physics2D.IgnoreLayerCollision(3, 8, true); // make projectiles ignore the screen borders
         Physics2D.IgnoreLayerCollision(8, 8, true); // make projectiles ignore each other
 
-// un-optimal code
+// dirty code
         phaseTime = (guard.GetCooldown() + guard.GetDuration()) * -1;
     }
 
@@ -49,7 +49,7 @@ public class BattleManager : MonoBehaviour {
         if (Input.GetKey("x") && canPhase) {StartCoroutine(Phase());}
         player.Move();
 
-// un-optimal code
+// dirty code
         imgCharge.fillAmount = Mathf.Clamp((phaseTime + guard.GetCooldown() + guard.GetDuration() - Time.time)/guard.GetCooldown(), 0, 1f);
     }
 
@@ -77,9 +77,9 @@ public class BattleManager : MonoBehaviour {
         Physics2D.IgnoreLayerCollision(6, 8, true);
 
         // change the player's portrait while phasing
-        imgPortrait.gameObject.SetActive(true);
+        imgPortrait.sprite = SpriteManager.Instance.GetFaceGlowing();
         yield return new WaitForSeconds(guard.GetDuration());
-        imgPortrait.gameObject.SetActive(false);
+        imgPortrait.sprite = SpriteManager.Instance.GetFaceBase();
 
         // make enemies/bullets hit the player while not phasing
         Physics2D.IgnoreLayerCollision(6, 7, false);
@@ -93,4 +93,5 @@ public class BattleManager : MonoBehaviour {
     | Misc
     \================================*/
     public void SetHealth(float health) {imgHealth.fillAmount = Mathf.Clamp(health/5, 0, 1f);} // change health bar image
+    public Image GetPortrait() {return imgPortrait;}
 }
