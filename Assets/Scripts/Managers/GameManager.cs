@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
     public static GameManager Instance {get; private set;}
+    int credits;
+    int stage;
 
     private void Awake() {
         if (Instance != null && Instance != this) { // ensure this is the only Instance
@@ -19,4 +21,14 @@ public class GameManager : MonoBehaviour {
         else {Time.timeScale = 0f;}
     }
 
+    public int GetCredits() {return credits;}
+    public void SetCredits(int i) {credits = i;}
+
+    public void AddCredits(int i) {
+        credits += i;
+        BattleManager.Instance.SetCredits(credits);
+    }
+
+    public int GetStage() {return stage;}
+    public void SetStage(int i) {stage = i;}
 }

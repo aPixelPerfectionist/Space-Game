@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using TMPro;
+
 public class BattleManager : MonoBehaviour {
     public static BattleManager Instance {get; private set;}
 
@@ -12,6 +14,8 @@ public class BattleManager : MonoBehaviour {
     [SerializeField] Image imgHealth;
     [SerializeField] Image imgCharge;
     [SerializeField] Image imgPortrait;
+
+    [SerializeField] TextMeshProUGUI creditsText;
 
     GameObject spawn;
     Weapon weapon;
@@ -58,6 +62,7 @@ public class BattleManager : MonoBehaviour {
     \================================*/
     private IEnumerator Attack(float time) {
         canAttack = false;
+        ParticleManager.Instance.GetPlayerSparks().Play();
         for (int i = weapon.GetRounds(); i > 0; i--) {
             Projectile projectile = Instantiate<Projectile>(weapon.GetProjectile(), spawn.transform); // spawn projectile
             Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), player.GetComponent<Collider2D>()); // make it ignore the player
@@ -77,9 +82,13 @@ public class BattleManager : MonoBehaviour {
         Physics2D.IgnoreLayerCollision(6, 8, true);
 
         // change the player's portrait while phasing
+        ParticleManager.Instance.GetPlayerThrusters().SetActive(false);
+        ParticleManager.Instance.GetPlayerPhasers().SetActive(true);
         imgPortrait.sprite = SpriteManager.Instance.GetFaceGlowing();
         yield return new WaitForSeconds(guard.GetDuration());
         imgPortrait.sprite = SpriteManager.Instance.GetFaceBase();
+        ParticleManager.Instance.GetPlayerPhasers().SetActive(false);
+        ParticleManager.Instance.GetPlayerThrusters().SetActive(true);
 
         // make enemies/bullets hit the player while not phasing
         Physics2D.IgnoreLayerCollision(6, 7, false);
@@ -93,5 +102,6 @@ public class BattleManager : MonoBehaviour {
     | Misc
     \================================*/
     public void SetHealth(float health) {imgHealth.fillAmount = Mathf.Clamp(health/5, 0, 1f);} // change health bar image
+    public void SetCredits(int i) {creditsText.text = i.ToString();}
     public Image GetPortrait() {return imgPortrait;}
 }

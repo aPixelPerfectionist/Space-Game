@@ -6,7 +6,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
     [Header("General")]
         [SerializeField] float health = 5;
-        //[SerializeField] int score = 1;
+        [SerializeField] int creditsMin = 0;
+        [SerializeField] int creditsMax = 0;
         [SerializeField] bool canBeHit = true;
         [SerializeField] bool explodeOnDeath = false;
         [SerializeField] bool explodeOnTouch = false;
@@ -69,7 +70,7 @@ public class Enemy : MonoBehaviour {
     }
 
     void OnDie() { // process being destroyed
-        //GameObject.Find("Control").GetComponent<Control>().SetScore(score);
+        GameManager.Instance.AddCredits(Random.Range(creditsMin, creditsMax));
         rb2D.Sleep();
         canBeHit = false;
         if (sfxDie != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}

@@ -4922,7 +4922,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  score: 1
+  creditsMin: 1
+  creditsMax: 3
   canBeHit: 1
   explodeOnDeath: 0
   explodeOnTouch: 0

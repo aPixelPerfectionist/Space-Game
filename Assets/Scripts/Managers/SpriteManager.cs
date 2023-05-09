@@ -31,4 +31,5 @@ public class SpriteManager : MonoBehaviour {
     public Sprite GetFaceHappy() {return faceHappy;}
     public Sprite GetFaceSurprised() {return faceSurprised;}
     public Sprite GetFaceGlowing() {return faceGlowing;}
+    public Sprite GetFaceDisconnected() {return disconnected[0];}
 }

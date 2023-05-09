@@ -50,13 +50,17 @@ public class Player : MonoBehaviour {
         else if (hit.gameObject.GetComponent<Enemy>() && canBeHit) {
             health--;
             BattleManager.Instance.SetHealth(health); // change health bar image
-            if (health <= 0) {OnDie();}
+            if (health <= 0) {StartCoroutine(OnDie());}
             else {StartCoroutine(OnHit());}
         }
     }
 
-    void OnDie() {
-        if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
+    IEnumerator OnDie() {
+        if (sfxDie != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
+        BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceDisconnected();
+        GameManager.Instance.Pause();
+        yield return new WaitForSecondsRealtime(2f);
+        GameManager.Instance.Pause();
         SceneManager.LoadScene("Restart");
     }
 
@@ -64,9 +68,12 @@ public class Player : MonoBehaviour {
         if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
         canBeHit = false;
         spriteR.color = Color.red;
+        BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceSurprised();
         yield return new WaitForSeconds(0.25f);
         spriteR.color = Color.white;
         canBeHit = true;
+        yield return new WaitForSeconds(0.5f);
+        BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceBase();
     }
 
     IEnumerator OnGuard() {
