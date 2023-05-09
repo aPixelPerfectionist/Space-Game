@@ -10,6 +10,10 @@ public class SpriteManager : MonoBehaviour {
         [SerializeField] Sprite shipPhase;
         [SerializeField] Sprite shipWhite;
 
+    [Header("Map")]
+        [SerializeField] Sprite stageBase;
+        [SerializeField] Sprite stageDone;
+
     [Header("Portrait")]
         [SerializeField] Sprite faceNeutral;
         [SerializeField] Sprite faceBase;
@@ -26,6 +30,9 @@ public class SpriteManager : MonoBehaviour {
         }
         Instance = this;
     }
+
+    public Sprite GetStageBase() {return stageBase;}
+    public Sprite GetStageDone() {return stageDone;}
 
     public Sprite GetFaceBase() {return faceBase;}
     public Sprite GetFaceHappy() {return faceHappy;}

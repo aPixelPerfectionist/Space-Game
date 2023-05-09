@@ -7,12 +7,12 @@ public class Upgrade : MonoBehaviour {
     [SerializeField] Sprite sprite;
     [SerializeField] int price;
 
-    bool owned = false;
+    int owned = 0;
 
     public string GetName() {return name;}
     public Sprite GetImage() {return sprite;}
     public int GetPrice() {return price;}
 
-    public bool GetOwned() {return owned;}
-    public void SetOwned(bool b) {owned = b;}
+    public int GetOwned() {return owned;}
+    public void SetOwned(int i) {owned = i;}
 }

@@ -17,6 +17,8 @@ public class BattleManager : MonoBehaviour {
 
     [SerializeField] TextMeshProUGUI creditsText;
 
+    [SerializeField] GameObject background;
+
     GameObject spawn;
     Weapon weapon;
     Guard guard;
@@ -25,6 +27,8 @@ public class BattleManager : MonoBehaviour {
 
     bool canAttack = true;
     bool canPhase = true;
+
+    bool isBoss = false;
 
     private void Awake() {
         if (Instance != null && Instance != this) { // ensure this is the only Instance
@@ -104,4 +108,9 @@ public class BattleManager : MonoBehaviour {
     public void SetHealth(float health) {imgHealth.fillAmount = Mathf.Clamp(health/5, 0, 1f);} // change health bar image
     public void SetCredits(int i) {creditsText.text = i.ToString();}
     public Image GetPortrait() {return imgPortrait;}
+
+    public GameObject GetBackground() {return background;}
+
+    public bool GetIsBoss() {return isBoss;}
+    public void SetIsBoss(bool b) {isBoss = b;}
 }

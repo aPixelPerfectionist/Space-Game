@@ -1756,6 +1756,7 @@ MonoBehaviour:
   imgCharge: {fileID: 1657992023}
   imgPortrait: {fileID: 1930189655}
   creditsText: {fileID: 2129990132}
+  background: {fileID: 4143064}
 --- !u!4 &1323608300
 Transform:
   m_ObjectHideFlags: 0
@@ -2181,13 +2182,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22fef036e77e5e74bbc9452ca658791d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  waves: 5
   enemies:
   - {fileID: 3728170588669638299, guid: 04726d8917f38244788d3435cf3dacd6, type: 3}
   - {fileID: 1186582234901834414, guid: 95198f4b8c641f442b181d749d92f507, type: 3}
   - {fileID: 1836187721249951125, guid: 8ed30e86aeb8f3f4a995f842d8f6d401, type: 3}
   - {fileID: 3728170588669638299, guid: 04726d8917f38244788d3435cf3dacd6, type: 3}
   - {fileID: 7546092844329703488, guid: f6678dd5fe3194f498980cfd9940e5da, type: 3}
+  bosses:
+  - {fileID: 2452779879537128193, guid: 3de73e1d3da6343428674997e1023704, type: 3}
   panel: {fileID: 516486519}
 --- !u!4 &1619859401
 Transform:

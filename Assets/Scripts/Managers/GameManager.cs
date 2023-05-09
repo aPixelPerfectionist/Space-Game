@@ -31,4 +31,5 @@ public class GameManager : MonoBehaviour {
 
     public int GetStage() {return stage;}
     public void SetStage(int i) {stage = i;}
+    public void IncStage(int i) {stage += i;}
 }

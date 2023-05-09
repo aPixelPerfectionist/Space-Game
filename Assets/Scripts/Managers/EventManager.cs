@@ -30,4 +30,8 @@ public class EventManager : MonoBehaviour {
             else {buttons[i].gameObject.SetActive(false);}
         } 
     }
+
+    public void OnClick() {
+        //
+    }
 }

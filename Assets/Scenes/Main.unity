@@ -5046,6 +5046,8 @@ MonoBehaviour:
   shipBase: {fileID: -72718841, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
   shipPhase: {fileID: -91889684, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
   shipWhite: {fileID: 1225021086, guid: 4f84da512c2c6f044b1199b18506311e, type: 3}
+  stageBase: {fileID: -1776273378, guid: 5ecef8097b1aab2489902b4372ec2974, type: 3}
+  stageDone: {fileID: 1852443952, guid: 5ecef8097b1aab2489902b4372ec2974, type: 3}
   faceNeutral: {fileID: -1823717769, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
   faceBase: {fileID: 2019151270, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
   faceHappy: {fileID: -1655615160, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
@@ -5357,7 +5359,7 @@ AudioSource:
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -5473,7 +5475,7 @@ AudioSource:
   m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
