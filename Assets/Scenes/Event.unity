@@ -2675,6 +2675,10 @@ MonoBehaviour:
   imgEvent: {fileID: 2114480576}
   events:
   - {fileID: 4457378900079943470, guid: 5152fe40166b9fc45b45b78a41f2acfa, type: 3}
+  buttons:
+  - {fileID: 1936237081}
+  - {fileID: 330851231}
+  - {fileID: 613938704}
 --- !u!4 &1961959770
 Transform:
   m_ObjectHideFlags: 0

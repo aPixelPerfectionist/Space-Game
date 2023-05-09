@@ -4,16 +4,16 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Event : MonoBehaviour {
-    [Header("General")]
-        [SerializeField] string eventName;
-        [SerializeField] string eventDesc;
-        [SerializeField] string eventBody;
-        [SerializeField] Sprite eventImage;
+    [SerializeField] string desc;
+    [SerializeField] string body;
+    [SerializeField] Sprite image;
 
-    //[Header("Outcomes")]
+    [SerializeField] List<Outcome> outcomes = new List<Outcome>();
 
-    public string GetName() {return eventName;}
-    public string GetDesc() {return eventDesc;}
-    public string GetBody() {return eventBody;}
-    public Sprite GetImage() {return eventImage;}
+    public string GetName() {return name;}
+    public string GetDesc() {return desc;}
+    public string GetBody() {return body;}
+
+    public Sprite GetImage() {return image;}
+    public List<Outcome> GetOutcomes() {return outcomes;}
 }
