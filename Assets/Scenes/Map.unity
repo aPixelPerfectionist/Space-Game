@@ -1003,6 +1003,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 540840d32503ca748bb32a3f8397f97e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  confirmSFX: {fileID: 8300000, guid: de3f21f22e5609247ad046ea903a9988, type: 3}
+  cancelSFX: {fileID: 8300000, guid: 23ed15994073e0144b64fa6aa6b46fd8, type: 3}
+  startSFX: {fileID: 8300000, guid: 64447026b90c3a74fa3b66f05e84f8cd, type: 3}
+  toggleSFX: {fileID: 8300000, guid: 0a4d7ca1b000df140b1c1548dc1e80eb, type: 3}
 --- !u!4 &1140533659
 Transform:
   m_ObjectHideFlags: 0
@@ -1917,6 +1921,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Event
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 1140533658}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: StartSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
 --- !u!114 &1828637212

@@ -44,7 +44,7 @@ public class Player : MonoBehaviour {
                 case 0: Destroy(projectile.gameObject); break; // if it has 0 destroy the projectile
                 default: projectile.SetPiercing(piercing--); break; // otherwise decrement by 1
             }
-            if (health <= 0) {OnDie();}
+            if (health <= 0) {StartCoroutine(OnDie());}
             else {StartCoroutine(OnHit());}
         }
         else if (hit.gameObject.GetComponent<Enemy>() && canBeHit) {

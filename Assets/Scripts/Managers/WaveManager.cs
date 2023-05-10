@@ -32,6 +32,9 @@ public class WaveManager : MonoBehaviour {
             BattleManager.Instance.GetBackground().GetComponentInChildren<Scroll>().enabled = false;
             int r = Random.Range(0, bosses.Count-1);
             Instantiate<GameObject>(bosses[r].gameObject, gameObject.transform);
+
+// skip Boss
+            SceneManager.LoadScene("credits");
         }
     }
 

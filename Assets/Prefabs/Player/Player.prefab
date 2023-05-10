@@ -4957,7 +4957,7 @@ MonoBehaviour:
   health: 5
   speed: {x: 6.5, y: 6.2}
   sfxHit: {fileID: 8300000, guid: 263229585a07ed94e88c5f3b4e861944, type: 3}
-  sfxDie: {fileID: 8300000, guid: 758e33c356f97b940ab6640d2df47960, type: 3}
+  sfxDie: {fileID: 8300000, guid: a28fc989d468ef74cb084a11badc148a, type: 3}
   weapon: {fileID: 8841475315067912381, guid: 3346f4aae5feaf649ac2309ec6bb35e8, type: 3}
   guard: {fileID: 2374208238254487903, guid: 88448dab3fcb0994bb64ee334bef1569, type: 3}
   spawn: {fileID: 1254623720106026799}

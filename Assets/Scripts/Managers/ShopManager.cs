@@ -9,6 +9,7 @@ using TMPro;
 public class ShopManager : MonoBehaviour {
     public static ShopManager Instance {get; private set;}
     [Header("General")]
+        [SerializeField] AudioClip buySFX;
         [SerializeField] List<Upgrade> upgrades = new List<Upgrade>();
     [Header("Programming")]
         [SerializeField] TextMeshProUGUI creditsText;
@@ -52,6 +53,7 @@ public class ShopManager : MonoBehaviour {
     void GetCredits(int i) {creditsText.text = i.ToString() + " Credits";}
 
     public void OnClick(int i, Button b) {
+        AudioManager.Instance.PlaySFX(buySFX);
         GameManager.Instance.AddCredits(items[i].GetPrice() * -1);
         b.gameObject.SetActive(false);
         stock--;

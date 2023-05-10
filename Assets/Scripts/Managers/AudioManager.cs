@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class AudioManager : MonoBehaviour {
     public static AudioManager Instance {get; private set;}
 
-    [Header("Music")]
+    [Header("BGM")]
         [SerializeField] AudioClip titleBGM;
         [SerializeField] AudioClip introBGM;
         [SerializeField] AudioClip mapBGM;

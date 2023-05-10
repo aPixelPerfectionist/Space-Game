@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour {
     SpriteRenderer spriteR;
     Rigidbody2D rb2D;
 
-    float HITTIME = 0.25F; // time after being hit
+    float HITTIME = 0.1F; // time after being hit
     float DIETIME = 0.5F; // time after being killed
 
     void Awake() { // initialize Variables
@@ -35,12 +35,14 @@ public class Enemy : MonoBehaviour {
         Projectile projectile = hit.gameObject.GetComponent<Projectile>();
 
         if ((explodeOnTouch) && (hit.gameObject.GetComponent<Player>() || hit.gameObject.GetComponent<Enemy>() )) {
+            canBeHit = false;
             health = 0;
             StartCoroutine(OnHit());
         }
 
         else if (projectile != null && projectile.HitsEnemy()) { // check if it's a projectile
             if (canBeHit) {
+                canBeHit = false;
                 health -= projectile.GetDamage(); // take damage
                 if (projectile.gameObject.GetComponent<Movement>() != null) {
                     Vector2 direction = projectile.gameObject.GetComponent<Movement>().GetDirection();
@@ -66,13 +68,13 @@ public class Enemy : MonoBehaviour {
         if (health <= 0) {OnDie();} // check if killed
         else if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
         yield return new WaitForSeconds(HITTIME);
+        canBeHit = true;
         spriteR.color = Color.white; // return to normal
     }
 
     void OnDie() { // process being destroyed
         GameManager.Instance.AddCredits(Random.Range(creditsMin, creditsMax));
         rb2D.Sleep();
-        canBeHit = false;
         if (sfxDie != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
         if (explodeOnDeath) {
             Instantiate<Projectile>(explosion, transform);

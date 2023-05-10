@@ -56,9 +56,9 @@ MonoBehaviour:
   explodeOnDeath: 1
   explodeOnTouch: 1
   explosion: {fileID: 3390139966314061499, guid: a0212992612b3374e967ae9a3ccbae2e, type: 3}
-  sfxHit: {fileID: 0}
+  sfxHit: {fileID: 8300000, guid: 263229585a07ed94e88c5f3b4e861944, type: 3}
   sfxDie: {fileID: 0}
-  sfxInv: {fileID: 0}
+  sfxInv: {fileID: 8300000, guid: 2cd518e5a22a6a94c926d4c0692ee687, type: 3}
 --- !u!114 &7729053647675378512
 MonoBehaviour:
   m_ObjectHideFlags: 0
