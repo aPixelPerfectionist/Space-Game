@@ -126,24 +126,24 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_SPRITESHAPE_BURST
 --linker-options=PdbAltPath="Into the Zenith_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
---output=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.Burst.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.Common.Runtime.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
---assembly-folder=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\
+--output=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.Burst.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.Common.Runtime.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
+--assembly-folder=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
 --method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--da352d92cabf024fc9986011d52a4537
@@ -277,24 +277,24 @@ Library: lib_burst_generated
 --compilation-defines=ENABLE_SPRITESHAPE_BURST
 --linker-options=PdbAltPath="Into the Zenith_Data/Plugins/x86_64"
 --generate-link-xml=Temp\burst.link.xml
---output=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.Burst.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.Common.Runtime.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
---root-assembly=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
---assembly-folder=C:\Users\aPixe\OneDrive\Documents\GitHub\Space Game\Temp\StagingArea\Data\Managed\
+--output=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Plugins\x86_64\lib_burst_generated
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\UnityEngine.UI.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Flow.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.Mathematics.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.State.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.VisualScripting.Core.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.Burst.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.Animation.Runtime.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.TextMeshPro.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.Timeline.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Assembly-CSharp.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.SpriteShape.Runtime.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.Common.Runtime.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.2D.Tilemap.Extras.dll
+--root-assembly=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\Unity.InternalAPIEngineBridge.001.dll
+--assembly-folder=C:\Users\ebeckwi000\Documents\GitHub\Space-Game\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
 --method=Unity.Burst.Intrinsics.X86, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::DoSetCSRTrampoline(System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--da352d92cabf024fc9986011d52a4537

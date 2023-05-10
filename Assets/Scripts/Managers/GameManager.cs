@@ -55,6 +55,7 @@ public class GameManager : MonoBehaviour {
     public void SetHealth(float f) {healthNow = f;}
 
     public void Reset() {
+	Time.timeScale = 1f;
         SetCredits(0);
         SetStage(0);
 
