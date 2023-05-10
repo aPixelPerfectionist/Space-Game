@@ -9,6 +9,7 @@ public class Player : MonoBehaviour {
         [SerializeField] float health = 5;
         [SerializeField] Vector2 speed = new Vector2(5f, 6f);
         Vector2 movement;
+        float speedMod = 1f;
         bool canBeHit = true;
 
     [Header("Audio")]
@@ -88,8 +89,8 @@ public class Player : MonoBehaviour {
     }
 
     public void Move() {
-        movement.x = Input.GetAxis("Horizontal") * speed.x;
-        movement.y = Input.GetAxis("Vertical") * speed.y;
+        movement.x = Input.GetAxis("Horizontal") * speed.x * speedMod;
+        movement.y = Input.GetAxis("Vertical") * speed.y * speedMod;
         rb2D.velocity = movement;
     }
 
@@ -101,7 +102,12 @@ public class Player : MonoBehaviour {
     public Guard GetGuard() {return guard;}
     public GameObject GetSpawn() {return spawn;}
 
-    public void SetHealth(float hp) {health = hp;}
     public float GetHealth() {return health;}
+    public void SetHealth(float f) {
+        health = f;
+        BattleManager.Instance.SetHealth(health);
+    }
+
     public Vector2 GetSpeed() {return speed;}
+    public void SetSpeed(float f) {speedMod = 1 + f/10f;}
 }

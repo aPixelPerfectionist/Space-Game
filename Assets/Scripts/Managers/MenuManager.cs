@@ -23,6 +23,11 @@ public class MenuManager : MonoBehaviour {
         GameManager.Instance.Reset();
     }
 
+// truly filthy code
+    public void Upgrade(string s) {
+        GameManager.Instance.Upgrade(s);
+    }
+
     public void ConfirmSFX() {AudioManager.Instance.PlaySFX(confirmSFX);}
     public void CancelSFX() {AudioManager.Instance.PlaySFX(cancelSFX);}
     public void StartSFX() {AudioManager.Instance.PlaySFX(startSFX);}

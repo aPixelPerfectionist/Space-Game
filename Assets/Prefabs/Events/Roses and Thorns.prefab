@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: -1655615160, guid: 33a2129bccd48cc42817a5680eab7427, type: 3}
-  desc: You obtained a new crewmate!
+  desc: You obtained a new pilot! Your ship moves faster now.
 --- !u!1 &4457378900079943469
 GameObject:
   m_ObjectHideFlags: 0

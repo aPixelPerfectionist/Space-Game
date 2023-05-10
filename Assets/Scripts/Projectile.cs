@@ -24,7 +24,11 @@ public class Projectile : MonoBehaviour {
     }
 
     public float GetDamage() {return damage;}
+    public void AddDamage(float f) {damage += f;}
+    public void SetDamage(float f) {damage = f;}
+
     public float GetKnockback() {return knockback;}
+    public void SetKnockback(float f) {knockback = f;}
 
     public int GetPiercing() {return piercing;}
     public void SetPiercing(int i) {piercing = i;}

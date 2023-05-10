@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5667225586595596839}
   - component: {fileID: 6660366985166254703}
   m_Layer: 0
-  m_Name: Fire Rate+
+  m_Name: Bullets+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

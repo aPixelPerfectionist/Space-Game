@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour {
-    [Header("Design")]
-        [SerializeField] int rounds = 1;
+    [Header("Design")]        
         [SerializeField] float rate;
         [SerializeField] float cooldown;
+
+        [SerializeField] int rounds = 1;
+        [SerializeField] int piercing = 0;
 
     [Header("Programming")]
         [SerializeField] Projectile projectile;

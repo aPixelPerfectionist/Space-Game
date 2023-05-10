@@ -24,6 +24,7 @@ public class WaveManager : MonoBehaviour {
 
     void Awake() {
         GameManager.Instance.AddCredits(0);
+        BattleManager.Instance.GetPlayer().SetHealth(GameManager.Instance.GetHealthNow());
         if (GameManager.Instance.GetStage() >= 4) {SceneManager.LoadScene("credits");}
         if (BattleManager.Instance.GetIsBoss() == false) { // spawn waves
             BattleManager.Instance.GetBackground().GetComponentInChildren<Scroll>().enabled = true;
@@ -66,6 +67,7 @@ public class WaveManager : MonoBehaviour {
 
     void OnWin() {
         GameManager.Instance.Pause();
+        GameManager.Instance.SetHealth(BattleManager.Instance.GetPlayer().GetHealth());
         BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceHappy();
         panel.SetActive(true);
 

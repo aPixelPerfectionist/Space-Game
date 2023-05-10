@@ -69,7 +69,7 @@ public class BattleManager : MonoBehaviour {
     private IEnumerator Attack(float time) {
         canAttack = false;
         ParticleManager.Instance.GetPlayerSparks().Play();
-        for (int i = weapon.GetRounds(); i > 0; i--) {
+        for (int i = weapon.GetRounds() + GameManager.Instance.GetRounds(); i > 0; i--) {
             Projectile projectile = Instantiate<Projectile>(weapon.GetProjectile(), spawn.transform); // spawn projectile
             Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), player.GetComponent<Collider2D>()); // make it ignore the player
             yield return new WaitForSeconds(time);
@@ -113,7 +113,10 @@ public class BattleManager : MonoBehaviour {
         GameManager.Instance.Pause();
     }
 
-    public void SetHealth(float health) {imgHealth.fillAmount = Mathf.Clamp(health/5, 0, 1f);} // change health bar image
+    public void SetHealth(float health) {// change health bar image
+        imgHealth.fillAmount = Mathf.Clamp(health/GameManager.Instance.GetHealthMax(), 0, 1f);
+    }
+
     public void SetCredits(int i) {creditsText.text = i.ToString();}
     public Image GetPortrait() {return imgPortrait;}
 
