@@ -109,5 +109,6 @@ public class Player : MonoBehaviour {
     }
 
     public Vector2 GetSpeed() {return speed;}
-    public void SetSpeed(float f) {speedMod = 1 + f/10f;}
+    public void SetSpeed(float f) {speedMod = f;}
+    public void AddSpeed(float f) {speedMod = 1 + f/10f;}
 }

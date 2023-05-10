@@ -9,10 +9,7 @@ public class GameManager : MonoBehaviour {
     float healthMax = 5f;
     float healthNow;
 
-    int health;
     int speed;
-
-    int damage;
     int rounds;
 
     int credits;
@@ -60,7 +57,15 @@ public class GameManager : MonoBehaviour {
     public void Reset() {
         SetCredits(0);
         SetStage(0);
+
+        healthMax = 5f;
         healthNow = 5f;
+
+        BattleManager.Instance.GetPlayer().GetWeapon().GetProjectile().SetDamage(1f);
+        rounds = 0;
+
+        speed = 0;
+        BattleManager.Instance.GetPlayer().SetSpeed(1f);
     }
 
     public void Upgrade(string s) {
@@ -84,7 +89,7 @@ public class GameManager : MonoBehaviour {
                 break;
             case "speed":
                 speed++;
-                BattleManager.Instance.GetPlayer().SetSpeed(speed);
+                BattleManager.Instance.GetPlayer().AddSpeed(speed * 1f);
                 break;
             default:
                 //
