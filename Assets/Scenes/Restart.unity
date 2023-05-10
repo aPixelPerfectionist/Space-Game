@@ -886,8 +886,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 273850556}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 1292123577}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: Reset
         m_Mode: 1
         m_Arguments:
