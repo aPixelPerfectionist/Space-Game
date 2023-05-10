@@ -37,8 +37,7 @@ public class GameManager : MonoBehaviour {
     public void IncStage(int i) {stage += i;}
 
     public void Reset() {
-        Time.timeScale = 1f;
-        credits = 0;
-        stage = 0;
+        SetCredits(0);
+        SetStage(0);
     }
 }

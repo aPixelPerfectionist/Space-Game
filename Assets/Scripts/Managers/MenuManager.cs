@@ -19,6 +19,10 @@ public class MenuManager : MonoBehaviour {
         else {Time.timeScale = 0f;}
     }
 
+    public void Reset() {
+        GameManager.Instance.Reset();
+    }
+
     public void ConfirmSFX() {AudioManager.Instance.PlaySFX(confirmSFX);}
     public void CancelSFX() {AudioManager.Instance.PlaySFX(cancelSFX);}
     public void StartSFX() {AudioManager.Instance.PlaySFX(startSFX);}

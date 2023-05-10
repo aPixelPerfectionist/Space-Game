@@ -45,4 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 21300000, guid: 9706f84c53dcf544f8d66f794bb3a19a, type: 3}
-  price: 10
+  price: 50

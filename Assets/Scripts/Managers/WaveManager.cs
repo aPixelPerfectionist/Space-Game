@@ -24,7 +24,8 @@ public class WaveManager : MonoBehaviour {
 
     void Awake() {
         GameManager.Instance.AddCredits(0);
-        if (!BattleManager.Instance.GetIsBoss()) { // spawn waves
+        if (GameManager.Instance.GetStage() >= 4) {SceneManager.LoadScene("credits");}
+        if (BattleManager.Instance.GetIsBoss() == false) { // spawn waves
             BattleManager.Instance.GetBackground().GetComponentInChildren<Scroll>().enabled = true;
             StartCoroutine(Spawn(hazards, enemies));
         }
@@ -32,6 +33,7 @@ public class WaveManager : MonoBehaviour {
             BattleManager.Instance.GetBackground().GetComponentInChildren<Scroll>().enabled = false;
             int r = Random.Range(0, bosses.Count-1);
             Instantiate<GameObject>(bosses[r].gameObject, gameObject.transform);
+            SceneManager.LoadScene("credits");
         }
     }
 

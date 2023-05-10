@@ -802,18 +802,6 @@ MonoBehaviour:
           m_StringArgument: Map
           m_BoolArgument: 0
         m_CallState: 1
-      - m_Target: {fileID: 758674385}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: IncStage
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
       - m_Target: {fileID: 762621030}
         m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
         m_MethodName: StartSFX

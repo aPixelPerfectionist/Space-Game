@@ -18,6 +18,7 @@ public class BattleManager : MonoBehaviour {
     [SerializeField] TextMeshProUGUI creditsText;
 
     [SerializeField] GameObject background;
+    [SerializeField] GameObject pause;
 
     GameObject spawn;
     Weapon weapon;
@@ -53,6 +54,7 @@ public class BattleManager : MonoBehaviour {
 
     private void FixedUpdate() {
         // process Input
+        if (Input.GetKey("escape")) {Pause();}
         if (Input.GetKey("z") && canAttack) {StartCoroutine(Attack(weapon.GetRate()));}
         if (Input.GetKey("x") && canPhase) {StartCoroutine(Phase());}
         player.Move();
@@ -105,6 +107,12 @@ public class BattleManager : MonoBehaviour {
     /*--------------------------------\
     | Misc
     \================================*/
+
+    public void Pause() {
+        pause.SetActive(true);
+        GameManager.Instance.Pause();
+    }
+
     public void SetHealth(float health) {imgHealth.fillAmount = Mathf.Clamp(health/5, 0, 1f);} // change health bar image
     public void SetCredits(int i) {creditsText.text = i.ToString();}
     public Image GetPortrait() {return imgPortrait;}

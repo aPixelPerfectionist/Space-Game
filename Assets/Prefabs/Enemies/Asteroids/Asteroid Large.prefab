@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5464090697470287968}
   - component: {fileID: 5464090697470287970}
   - component: {fileID: 5464090697470287971}
+  - component: {fileID: 1198044598557810728}
   - component: {fileID: 2359033104025429612}
   - component: {fileID: 5464090697470287969}
   - component: {fileID: 4261240422640125930}
@@ -73,6 +74,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: {x: 0, y: 0}
   direction: {x: 0, y: 0}
+--- !u!114 &1198044598557810728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5464090697470287974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef69cd7da05a10429fe61a018e7ddf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+  knockback: 1
+  lifetime: -1
+  piercing: -1
+  hitsEnemy: 1
+  hitsPlayer: 1
+  sfx: {fileID: 0}
 --- !u!212 &2359033104025429612
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -170,5 +190,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7, y: 1}
   m_EdgeRadius: 0

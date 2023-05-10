@@ -37,10 +37,7 @@ public class Enemy : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D hit) { // called when a triggered collision occurs
         Projectile projectile = hit.gameObject.GetComponent<Projectile>();
 
-        if ((explodeOnTouch) && (hit.gameObject.GetComponent<Player>() || hit.gameObject.GetComponent<Enemy>() )) {
-            health = 0;
-            StartCoroutine(OnHit());
-        }
+        if ((explodeOnTouch) && (hit.gameObject.GetComponent<Player>() || hit.gameObject.GetComponent<Enemy>() )) {OnDie();}
 
         else if ( ( projectile != null && projectile.HitsEnemy() ) || (asteroid && projectile != null) ) { // check if it's a projectile
             if (canBeHit) {
@@ -87,7 +84,10 @@ public class Enemy : MonoBehaviour {
         GameManager.Instance.AddCredits(Random.Range(creditsMin, creditsMax));
         spriteR.enabled = false;
         if (sfxDie != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
-        if (explodeOnDeath) {Instantiate<Projectile>(explosion, transform);}
+        if (explodeOnDeath) {
+            Projectile projectile = Instantiate<Projectile>(explosion, transform);
+            Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), GetComponent<Collider2D>()); // make it ignore the enemy
+        }
         Destroy(gameObject, DIETIME);
     }
 
