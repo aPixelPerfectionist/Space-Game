@@ -8,7 +8,10 @@ public class Enemy : MonoBehaviour {
         [SerializeField] float health = 5;
         [SerializeField] int creditsMin = 0;
         [SerializeField] int creditsMax = 0;
+
         [SerializeField] bool canBeHit = true;
+        [SerializeField] bool asteroid = false;
+
         [SerializeField] bool explodeOnDeath = false;
         [SerializeField] bool explodeOnTouch = false;
         [SerializeField] Projectile explosion;
@@ -35,21 +38,20 @@ public class Enemy : MonoBehaviour {
         Projectile projectile = hit.gameObject.GetComponent<Projectile>();
 
         if ((explodeOnTouch) && (hit.gameObject.GetComponent<Player>() || hit.gameObject.GetComponent<Enemy>() )) {
-            canBeHit = false;
             health = 0;
             StartCoroutine(OnHit());
         }
 
-        else if (projectile != null && projectile.HitsEnemy()) { // check if it's a projectile
+        else if ( ( projectile != null && projectile.HitsEnemy() ) || (asteroid && projectile != null) ) { // check if it's a projectile
             if (canBeHit) {
-                canBeHit = false;
                 health -= projectile.GetDamage(); // take damage
                 if (projectile.gameObject.GetComponent<Movement>() != null) {
                     Vector2 direction = projectile.gameObject.GetComponent<Movement>().GetDirection();
                     float knockback = projectile.GetKnockback();
                     rb2D.AddForce(new Vector2(direction.x * knockback, direction.y * knockback));
                 }
-                StartCoroutine(OnHit()); // Process being hit
+                if (health <= 0) {OnDie();} // check if killed
+                else {StartCoroutine(OnHit());} // Process being hit
             }
             else if (sfxInv != null) {audioS.PlayOneShot(sfxInv, sfxInv.length);}
             
@@ -61,28 +63,35 @@ public class Enemy : MonoBehaviour {
                 default: projectile.SetPiercing(piercing--); break; // otherwise decrement by 1
             }
         }
+        else if (hit.gameObject.GetComponent<Player>()) { // || hit.gameObject.GetComponent<Enemy>().IsAsteroid()
+            if (canBeHit) {
+                health--;
+                if (health <= 0) {OnDie();} // check if killed
+                else {StartCoroutine(OnHit());} // Process being hit
+            }
+            else if (sfxInv != null) {audioS.PlayOneShot(sfxInv, sfxInv.length);}
+        }
     }
 
     IEnumerator OnHit() { // process being hit
+        canBeHit = false;
         spriteR.color = Color.red;
-        if (health <= 0) {OnDie();} // check if killed
-        else if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
+        if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
         yield return new WaitForSeconds(HITTIME);
         canBeHit = true;
         spriteR.color = Color.white; // return to normal
     }
 
-    void OnDie() { // process being destroyed
+    public void OnDie() { // process being destroyed
+        canBeHit = false;
         GameManager.Instance.AddCredits(Random.Range(creditsMin, creditsMax));
-        rb2D.Sleep();
+        spriteR.enabled = false;
         if (sfxDie != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
-        if (explodeOnDeath) {
-            Instantiate<Projectile>(explosion, transform);
-            spriteR.enabled = false;
-        }
+        if (explodeOnDeath) {Instantiate<Projectile>(explosion, transform);}
         Destroy(gameObject, DIETIME);
     }
 
+    public bool IsAsteroid() {return asteroid;}
     public bool GetCanBeHit() {return canBeHit;}
     public void SetCanBeHit(bool b) {canBeHit = b;}
 }

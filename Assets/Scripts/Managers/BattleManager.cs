@@ -110,6 +110,7 @@ public class BattleManager : MonoBehaviour {
     public Image GetPortrait() {return imgPortrait;}
 
     public GameObject GetBackground() {return background;}
+    public Player GetPlayer() {return player;}
 
     public bool GetIsBoss() {return isBoss;}
     public void SetIsBoss(bool b) {isBoss = b;}

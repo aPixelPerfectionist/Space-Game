@@ -5,9 +5,12 @@ using UnityEngine;
 
 public class Proximity : MonoBehaviour {
     [Header("General")]
+        [SerializeField] float timer = 1f;
+        [SerializeField] float speed = 1f;
+        [SerializeField] bool timed = false;
         [SerializeField] bool hitsEnemy = true;
         [SerializeField] bool hitsPlayer = true;
-        bool canBeHit = true;
+        [SerializeField] bool homing = false;
 
     [Header("Visual")]
         [SerializeField] Sprite spriteA;
@@ -15,6 +18,10 @@ public class Proximity : MonoBehaviour {
 
     SpriteRenderer spriteR;
     Rigidbody2D rb2D;
+    Transform target;
+
+    bool canBeHit;
+    bool triggered = false;
 
     int count = 0;
 
@@ -22,10 +29,17 @@ public class Proximity : MonoBehaviour {
         spriteR = GetComponent<SpriteRenderer>();
         rb2D = GetComponent<Rigidbody2D>();
         canBeHit = GetComponent<Enemy>().GetCanBeHit();
+        target = BattleManager.Instance.GetPlayer().gameObject.GetComponent<Transform>();
+    }
+
+    void FixedUpdate() {
+        if (triggered && homing) {transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);}
     }
 
     void OnTriggerEnter2D(Collider2D hit) {
         if ((hitsEnemy && hit.gameObject.GetComponent<Enemy>()) || (hitsPlayer && hit.gameObject.GetComponent<Player>()) ) {
+            if (homing && !triggered) {triggered = true;}
+            if (timed) {StartCoroutine(OnExplode());}
             count ++;
             if (count == 1) {
                 spriteR.sprite = spriteA;
@@ -38,9 +52,19 @@ public class Proximity : MonoBehaviour {
         if ((hitsEnemy && hit.gameObject.GetComponent<Enemy>()) || (hitsPlayer && hit.gameObject.GetComponent<Player>()) ) {
             count --;
             if (count == 0) {
-                spriteR.sprite = spriteB;
+                if (homing) {
+                    spriteR.sprite = spriteB;
+                    triggered = false;
+                }
                 if (!canBeHit) {GetComponent<Enemy>().SetCanBeHit(false);}
             }
         }
+    }
+
+    IEnumerator OnExplode() { // process explosion
+        yield return new WaitForSeconds(timer);
+        rb2D.isKinematic = true;
+        GetComponent<Enemy>().OnDie();
+
     }
 }

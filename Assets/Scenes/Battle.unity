@@ -1106,7 +1106,7 @@ RectTransform:
   - {fileID: 1990837265}
   - {fileID: 2120735288}
   m_Father: {fileID: 1096701831}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1732,8 +1732,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2110470661}
   - {fileID: 516486520}
+  - {fileID: 2110470661}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2569,9 +2569,11 @@ MonoBehaviour:
   waves: 5
   enemies:
   - {fileID: 3728170588669638299, guid: 04726d8917f38244788d3435cf3dacd6, type: 3}
+  - {fileID: 3728170588669638299, guid: 04726d8917f38244788d3435cf3dacd6, type: 3}
+  - {fileID: 3728170588669638299, guid: 04726d8917f38244788d3435cf3dacd6, type: 3}
+  hazards:
   - {fileID: 1186582234901834414, guid: 95198f4b8c641f442b181d749d92f507, type: 3}
   - {fileID: 1836187721249951125, guid: 8ed30e86aeb8f3f4a995f842d8f6d401, type: 3}
-  - {fileID: 3728170588669638299, guid: 04726d8917f38244788d3435cf3dacd6, type: 3}
   - {fileID: 7546092844329703488, guid: f6678dd5fe3194f498980cfd9940e5da, type: 3}
   bosses:
   - {fileID: 2452779879537128193, guid: 3de73e1d3da6343428674997e1023704, type: 3}
@@ -3227,7 +3229,7 @@ RectTransform:
   - {fileID: 266792666}
   - {fileID: 2129990131}
   m_Father: {fileID: 1096701831}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}

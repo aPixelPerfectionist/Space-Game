@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5464090697470287968}
   - component: {fileID: 5464090697470287970}
-  - component: {fileID: 8877893842280911055}
   - component: {fileID: 5464090697470287971}
   - component: {fileID: 2359033104025429612}
   - component: {fileID: 5464090697470287969}
@@ -53,31 +52,13 @@ MonoBehaviour:
   creditsMin: 0
   creditsMax: 0
   canBeHit: 1
+  asteroid: 1
   explodeOnDeath: 0
   explodeOnTouch: 0
   explosion: {fileID: 0}
   sfxHit: {fileID: 8300000, guid: 263229585a07ed94e88c5f3b4e861944, type: 3}
   sfxDie: {fileID: 8300000, guid: a28fc989d468ef74cb084a11badc148a, type: 3}
   sfxInv: {fileID: 0}
---- !u!114 &8877893842280911055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5464090697470287974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ef69cd7da05a10429fe61a018e7ddf7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
-  knockback: 0
-  lifetime: -1
-  piercing: 0
-  hitsEnemy: 1
-  hitsPlayer: 1
-  sfx: {fileID: 0}
 --- !u!114 &5464090697470287971
 MonoBehaviour:
   m_ObjectHideFlags: 0

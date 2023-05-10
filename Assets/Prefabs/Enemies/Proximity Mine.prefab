@@ -71,8 +71,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68e98d69a5cd5ca48be060a54e73d18c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 3
+  timed: 0
   hitsEnemy: 1
   hitsPlayer: 1
+  homing: 1
   spriteA: {fileID: 1335808214, guid: a4499a97d4ee4bd499b0971ac82877bb, type: 3}
   spriteB: {fileID: -1684100251, guid: a4499a97d4ee4bd499b0971ac82877bb, type: 3}
 --- !u!212 &1955778912439611857

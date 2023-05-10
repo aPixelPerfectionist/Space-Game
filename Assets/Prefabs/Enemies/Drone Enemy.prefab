@@ -9669,11 +9669,12 @@ MonoBehaviour:
   creditsMin: 1
   creditsMax: 3
   canBeHit: 1
-  explodeOnDeath: 1
+  asteroid: 0
+  explodeOnDeath: 0
   explodeOnTouch: 0
-  explosion: {fileID: 3390139966314061499, guid: 767d12e3e6f02314cb9ae98f1595d097, type: 3}
+  explosion: {fileID: 0}
   sfxHit: {fileID: 8300000, guid: 263229585a07ed94e88c5f3b4e861944, type: 3}
-  sfxDie: {fileID: 0}
+  sfxDie: {fileID: 8300000, guid: bfae92d9d6fb9a14db1a1bb07c238206, type: 3}
   sfxInv: {fileID: 0}
 --- !u!114 &6487270678735890808
 MonoBehaviour:
