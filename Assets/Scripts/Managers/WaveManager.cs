@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 using TMPro;
 
-public class WaveManager : MonoBehaviour {
+public class WaveManager : MonoBehaviour { // spawns waves and shows rewards on level complete
     [Header("General")]
         [SerializeField] int waves = 5;
         [SerializeField] List<Wave> enemies = new List<Wave>();
@@ -23,8 +23,8 @@ public class WaveManager : MonoBehaviour {
         [SerializeField] GameObject panel;
 
     void Awake() {
-        GameManager.Instance.AddCredits(0);
-        BattleManager.Instance.GetPlayer().SetHealth(GameManager.Instance.GetHealthNow());
+        GameManager.Instance.AddCredits(0); // update credits
+        BattleManager.Instance.GetPlayer().SetHealth(GameManager.Instance.GetHealthNow()); // update health
         
         if (BattleManager.Instance.GetIsBoss() == false) { // spawn waves
             BattleManager.Instance.GetBackground().GetComponentInChildren<Scroll>().enabled = true;
@@ -42,12 +42,12 @@ public class WaveManager : MonoBehaviour {
         yield return new WaitForSeconds(3f); // delay
 
         for (int i = waves; i > 0; i -= 2) {
-            int r = Random.Range(0, hazards.Count-1);
+            int r = Random.Range(0, hazards.Count-1); // spawn hazards
             Instantiate<GameObject>(hazards[r].gameObject, gameObject.transform);
             yield return new WaitForSeconds(hazards[r].GetDuration());
             //hazards.RemoveAt(r);
 
-            r = Random.Range(0, enemies.Count-1);
+            r = Random.Range(0, enemies.Count-1); // spawn enemies
             Instantiate<GameObject>(enemies[r].gameObject, gameObject.transform);
             yield return new WaitForSeconds(enemies[r].GetDuration());
             //enemies.RemoveAt(r);
@@ -66,11 +66,11 @@ public class WaveManager : MonoBehaviour {
         
     }
 
-    void OnWin() {
+    void OnWin() { // process level complete
         GameManager.Instance.Pause();
         GameManager.Instance.SetHealth(BattleManager.Instance.GetPlayer().GetHealth());
         BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceHappy();
-        panel.SetActive(true);
+        panel.SetActive(true); // show rewards
 
         rewards = upgrades;
         for (int i = 0; i < 2; i++) { // add Listeners and assign variables
@@ -81,7 +81,5 @@ public class WaveManager : MonoBehaviour {
         }
     }
 
-    public void OnClick(int i) {
-        //
-    }
+    public void OnClick(int i) {} // track which reward was chosen
 }

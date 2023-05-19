@@ -5,11 +5,11 @@ using UnityEngine;
 using UnityEngine.Playables;
 using UnityEngine.SceneManagement;
 
-public class IntroManager : MonoBehaviour {
+public class IntroManager : MonoBehaviour { // returns to the main menu when the cutscene ends
     public PlayableDirector director;
-    void OnEnable() {director.stopped += OnPlayableDirectorStopped;}
+    void OnEnable() {director.stopped += OnPlayableDirectorStopped;} // subscribe
 
-    void OnPlayableDirectorStopped(PlayableDirector dir) {SceneManager.LoadScene("Main");}
+    void OnPlayableDirectorStopped(PlayableDirector dir) {SceneManager.LoadScene("Main");} // return to main menu
 
-    void OnDisable() {director.stopped -= OnPlayableDirectorStopped;}
+    void OnDisable() {director.stopped -= OnPlayableDirectorStopped;} // unsubscribe
 }

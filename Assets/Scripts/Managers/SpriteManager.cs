@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-public class SpriteManager : MonoBehaviour {
+public class SpriteManager : MonoBehaviour { // sprite library
     public static SpriteManager Instance {get; private set;}
     [Header("Ship")]
         [SerializeField] Sprite shipBase;

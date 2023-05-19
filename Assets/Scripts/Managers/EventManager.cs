@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 using TMPro;
 
-public class EventManager : MonoBehaviour {
+public class EventManager : MonoBehaviour { // handles the event screen
     [Header("General")]
         [SerializeField] List<Event> events = new List<Event>();
     [Header("Programming")]
@@ -19,7 +19,7 @@ public class EventManager : MonoBehaviour {
 
     List<Outcome> outcomes = new List<Outcome>();
 
-    void Start() {
+    void Start() { // set text, images, and buttons
         nameText.text = events[0].GetName();
         descText.text = events[0].GetDesc();
         bodyText.text = events[0].GetBody();
@@ -36,7 +36,7 @@ public class EventManager : MonoBehaviour {
         } 
     }
 
-    public void OnClick(int i) {
+    public void OnClick(int i) { // update based on outcome chosen
         imgEvent.sprite = outcomes[i].GetSprite();
         outText.text = outcomes[i].GetDesc();
     }

@@ -5,15 +5,15 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour {
     [Header("Design")]        
-        [SerializeField] float rate;
-        [SerializeField] float cooldown;
+        [SerializeField] float rate; // attack rate
+        [SerializeField] float cooldown; // attack cooldown
 
-        [SerializeField] int rounds = 1;
-        [SerializeField] int piercing = 0;
+        [SerializeField] int rounds = 1; // projectiles spawned per attack
+        //[SerializeField] int piercing = 0;
 
     [Header("Programming")]
-        [SerializeField] Projectile projectile;
-        [SerializeField] ParticleSystem sparks;
+        [SerializeField] Projectile projectile; // projectile to be spawned
+        [SerializeField] ParticleSystem sparks; // particles to be spawned
 
     public int GetRounds() {return rounds;}
     public float GetRate() {return rate;}

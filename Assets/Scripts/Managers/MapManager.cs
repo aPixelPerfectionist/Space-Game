@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class MapManager : MonoBehaviour {
+public class MapManager : MonoBehaviour { // updates the map and loads the next stage
     [SerializeField] List<Image> stages = new List<Image>();
 
     void Start() {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using UnityEngine;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour { // track persistant veriables and also handles upgrades
     public static GameManager Instance {get; private set;}
 
     float healthMax = 5f;
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour {
         damage = BattleManager.Instance.GetPlayer().GetWeapon().GetDamage();
         knockback = BattleManager.Instance.GetPlayer().GetWeapon().GetKnockback();*/
 
-    public void Pause() {
+    public void Pause() { // pauses the game
         if (Time.timeScale == 0f){Time.timeScale = 1f;}
         else {Time.timeScale = 0f;}
     }
@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour {
     public float GetHealthNow() {return healthNow;}
     public void SetHealth(float f) {healthNow = f;}
 
-    public void Reset() {
+    public void Reset() { // resets everything on reload
 	Time.timeScale = 1f;
         SetCredits(0);
         SetStage(0);
@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour {
         BattleManager.Instance.GetPlayer().SetSpeed(1f);
     }
 
-    public void Upgrade(string s) {
+    public void Upgrade(string s) { // handles upgrades
         switch (s) {
             case "health":
                 healthMax++;

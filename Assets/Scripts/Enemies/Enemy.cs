@@ -37,12 +37,12 @@ public class Enemy : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D hit) { // called when a triggered collision occurs
         Projectile projectile = hit.gameObject.GetComponent<Projectile>();
 
-        if ((explodeOnTouch) && (hit.gameObject.GetComponent<Player>() || hit.gameObject.GetComponent<Enemy>() )) {OnDie();}
+        if ((explodeOnTouch) && (hit.gameObject.GetComponent<Player>() || hit.gameObject.GetComponent<Enemy>() )) {OnDie();} // if it explodes on contact do that
 
         else if ( ( projectile != null && projectile.HitsEnemy() ) || (asteroid && projectile != null) ) { // check if it's a projectile
             if (canBeHit) {
                 health -= projectile.GetDamage(); // take damage
-                if (projectile.gameObject.GetComponent<Movement>() != null) {
+                if (projectile.gameObject.GetComponent<Movement>() != null) { // apply knockback
                     Vector2 direction = projectile.gameObject.GetComponent<Movement>().GetDirection();
                     float knockback = projectile.GetKnockback();
                     rb2D.AddForce(new Vector2(direction.x * knockback, direction.y * knockback));
@@ -71,20 +71,20 @@ public class Enemy : MonoBehaviour {
     }
 
     IEnumerator OnHit() { // process being hit
-        canBeHit = false;
-        spriteR.color = Color.red;
-        if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
-        yield return new WaitForSeconds(HITTIME);
+        canBeHit = false; // become invincible
+        spriteR.color = Color.red; // turn red
+        if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);} // play sfx
+        yield return new WaitForSeconds(HITTIME); // delay before returning to normal
         canBeHit = true;
-        spriteR.color = Color.white; // return to normal
+        spriteR.color = Color.white; 
     }
 
     public void OnDie() { // process being destroyed
         canBeHit = false;
-        GameManager.Instance.AddCredits(Random.Range(creditsMin, creditsMax));
+        GameManager.Instance.AddCredits(Random.Range(creditsMin, creditsMax)); // get credits
         spriteR.enabled = false;
         if (sfxDie != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
-        if (explodeOnDeath) {
+        if (explodeOnDeath) { // explode
             Projectile projectile = Instantiate<Projectile>(explosion, transform);
             Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), GetComponent<Collider2D>()); // make it ignore the enemy
         }

@@ -31,7 +31,7 @@ public class Attack : MonoBehaviour {
         }
     }
 
-    bool CanAttack() { // check if the player can attack
+    bool CanAttack() { // check if the enemy can attack
         if (attackTime + weapon.GetCooldown() < Time.time) {return true;}
         return false;
     }

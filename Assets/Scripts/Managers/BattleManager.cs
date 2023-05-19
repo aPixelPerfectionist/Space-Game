@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 using TMPro;
 
-public class BattleManager : MonoBehaviour {
+public class BattleManager : MonoBehaviour { // handles combat
     public static BattleManager Instance {get; private set;}
 
     [SerializeField] Player player;
@@ -68,7 +68,7 @@ public class BattleManager : MonoBehaviour {
     \================================*/
     private IEnumerator Attack(float time) {
         canAttack = false;
-        ParticleManager.Instance.GetPlayerSparks().Play();
+        ParticleManager.Instance.GetPlayerSparks().Play(); // play particle effect
         for (int i = weapon.GetRounds() + GameManager.Instance.GetRounds(); i > 0; i--) {
             Projectile projectile = Instantiate<Projectile>(weapon.GetProjectile(), spawn.transform); // spawn projectile
             Physics2D.IgnoreCollision(projectile.GetComponent<Collider2D>(), player.GetComponent<Collider2D>()); // make it ignore the player

@@ -45,50 +45,50 @@ public class Player : MonoBehaviour {
                 case 0: Destroy(projectile.gameObject); break; // if it has 0 destroy the projectile
                 default: projectile.SetPiercing(piercing--); break; // otherwise decrement by 1
             }
-            if (health <= 0) {StartCoroutine(OnDie());}
-            else {StartCoroutine(OnHit());}
+            if (health <= 0) {StartCoroutine(OnDie());} // process dying if out of health
+            else {StartCoroutine(OnHit());} // otherwise process being hit
         }
-        else if (hit.gameObject.GetComponent<Enemy>() && canBeHit) {
-            health--;
+        else if (hit.gameObject.GetComponent<Enemy>() && canBeHit) { // check if it's an enemy
+            health--; // take 1 damage
             BattleManager.Instance.SetHealth(health); // change health bar image
-            if (health <= 0) {StartCoroutine(OnDie());}
-            else {StartCoroutine(OnHit());}
+            if (health <= 0) {StartCoroutine(OnDie());} // process dying if out of health
+            else {StartCoroutine(OnHit());} // otherwise process being hit
         }
     }
 
-    IEnumerator OnDie() {
-        if (sfxDie != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);}
-        BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceDisconnected();
-        GameManager.Instance.Pause();
+    IEnumerator OnDie() { // process dying
+        if (sfxDie != null) {audioS.PlayOneShot(sfxDie, sfxDie.length);} // play death sfx
+        BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceDisconnected(); // change portrait
+        GameManager.Instance.Pause(); // delay before transfering to restart screen
         yield return new WaitForSecondsRealtime(2f);
         GameManager.Instance.Pause();
         SceneManager.LoadScene("Restart");
     }
 
-    IEnumerator OnHit() {
-        if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);}
-        canBeHit = false;
-        spriteR.color = Color.red;
-        BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceSurprised();
-        yield return new WaitForSeconds(0.25f);
+    IEnumerator OnHit() { // process being hit
+        if (sfxHit != null) {audioS.PlayOneShot(sfxHit, sfxHit.length);} // play hit sfx
+        canBeHit = false; // invincibility frame
+        spriteR.color = Color.red; // turn red
+        BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceSurprised(); // change portrait
+        yield return new WaitForSeconds(0.25f); // delay before returning everything to normal
         spriteR.color = Color.white;
         canBeHit = true;
         yield return new WaitForSeconds(0.5f);
         BattleManager.Instance.GetPortrait().sprite = SpriteManager.Instance.GetFaceBase();
     }
 
-    IEnumerator OnGuard() {
-        AudioClip sfx = guard.GetSFX();
+    IEnumerator OnGuard() { // process guarding
+        AudioClip sfx = guard.GetSFX(); // play sfx
         if (sfx != null) {audioS.PlayOneShot(sfx, sfx.length);}
-        canBeHit = false;
-        Sprite temp = spriteR.sprite;
+        canBeHit = false; // turn invincible
+        Sprite temp = spriteR.sprite; // change sprite
         spriteR.sprite = sprite;
-        yield return new WaitForSeconds(guard.GetDuration());
+        yield return new WaitForSeconds(guard.GetDuration()); // delay before returning everything to normal
         spriteR.sprite = temp;
         canBeHit = true;
     }
 
-    public void Move() {
+    public void Move() { // move based on input
         movement.x = Input.GetAxis("Horizontal") * speed.x * speedMod;
         movement.y = Input.GetAxis("Vertical") * speed.y * speedMod;
         rb2D.velocity = movement;

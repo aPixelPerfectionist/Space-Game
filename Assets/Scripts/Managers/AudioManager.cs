@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class AudioManager : MonoBehaviour {
+public class AudioManager : MonoBehaviour { // audio library and player
     public static AudioManager Instance {get; private set;}
 
     [Header("BGM")]
@@ -46,11 +46,11 @@ public class AudioManager : MonoBehaviour {
         audioSFX.volume = 1;
     }
 
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode) { // play new BGM on Scene Load
         ChangeClip(playlist[scene.buildIndex]);
     }
 
-    void OnDisable() {
+    void OnDisable() { // unsubscribe from delegate when disabled
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 

@@ -19,8 +19,8 @@ public class Projectile : MonoBehaviour {
     Rigidbody2D rb2D;
 
     void Awake() {
-        if (lifetime >= 0) {Destroy(gameObject, lifetime);}
-        if (sfx != null) {AudioManager.Instance.GetAudioSource().PlayOneShot(sfx, sfx.length);}
+        if (lifetime >= 0) {Destroy(gameObject, lifetime);} // set despawn timer
+        if (sfx != null) {AudioManager.Instance.GetAudioSource().PlayOneShot(sfx, sfx.length);} // play sound effect
     }
 
     public float GetDamage() {return damage;}

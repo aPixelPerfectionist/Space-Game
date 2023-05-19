@@ -32,31 +32,31 @@ public class Proximity : MonoBehaviour {
         target = BattleManager.Instance.GetPlayer().gameObject.GetComponent<Transform>();
     }
 
-    void FixedUpdate() {
+    void FixedUpdate() { // if triggered, move towards the player
         if (triggered && homing) {transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);}
     }
 
-    void OnTriggerEnter2D(Collider2D hit) {
-        if ((hitsEnemy && hit.gameObject.GetComponent<Enemy>()) || (hitsPlayer && hit.gameObject.GetComponent<Player>()) ) {
-            if (homing && !triggered) {triggered = true;}
-            if (timed) {StartCoroutine(OnExplode());}
-            count ++;
-            if (count == 1) {
+    void OnTriggerEnter2D(Collider2D hit) { // process colliders getting close
+        if ((hitsEnemy && hit.gameObject.GetComponent<Enemy>()) || (hitsPlayer && hit.gameObject.GetComponent<Player>()) ) { // check if target is valid
+            if (homing && !triggered) {triggered = true;} // trigger homing enemies
+            if (timed) {StartCoroutine(OnExplode());} // begin explosion countdown
+            count ++; // track number of targets in range
+            if (count == 1) { // update sprite and invincibility
                 spriteR.sprite = spriteA;
                 if (!canBeHit) {GetComponent<Enemy>().SetCanBeHit(true);}
             }
         }
     }
 
-    void OnTriggerExit2D(Collider2D hit) {
+    void OnTriggerExit2D(Collider2D hit) { // process colliders going away
         if ((hitsEnemy && hit.gameObject.GetComponent<Enemy>()) || (hitsPlayer && hit.gameObject.GetComponent<Player>()) ) {
-            count --;
-            if (count == 0) {
-                if (homing) {
+            count --; // track number of targets in range
+            if (count == 0) { // if no targets are in range
+                if (homing) { // stop homing
                     spriteR.sprite = spriteB;
                     triggered = false;
                 }
-                if (!canBeHit) {GetComponent<Enemy>().SetCanBeHit(false);}
+                if (!canBeHit) {GetComponent<Enemy>().SetCanBeHit(false);} // become invulnerable
             }
         }
     }

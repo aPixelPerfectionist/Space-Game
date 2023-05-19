@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParticleManager : MonoBehaviour {
+public class ParticleManager : MonoBehaviour { // particle library
      public static ParticleManager Instance {get; private set;}
      [SerializeField] ParticleSystem playerSparks;
      [SerializeField] GameObject playerThrusters;
